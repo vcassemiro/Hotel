@@ -1,32 +1,32 @@
 # If you create new headers/cpp files, add them to these list!
 set(HEADER_FILES
-	 Avaliacoes.h
+	 Pessoa.h
+	 Avaliacao.h
 	 Cliente.h
-	 Dados.h
 	 Hospede.h
 	 Hotel.h
- 	 Pagamentos.h
- 	 Pessoa.h
+	 Pagamento.h
 	 Quarto.h
 	 Quarto_Luxo.h
 	 Quarto_Simples.h
 	 Quarto_Suite.h
 	 Reserva.h
+	 Dados.h
 )
 
 set(SOURCE_FILES
-	 Avaliacoes.cpp
-	 Cliente.cpp
-	 Dados.cpp
-	 Hospede.cpp
-	 Hotel.cpp
- 	 Pagamentos.cpp
- 	 Pessoa.cpp
-	 Quarto.cpp
-	 Quarto_Luxo.cpp
-	 Quarto_Simples.cpp
-	 Quarto_Suite.cpp
-	 Reserva.cpp
+	Pessoa.cpp
+	Avaliacao.cpp
+	Cliente.cpp
+	Hospede.cpp
+	Hotel.cpp
+	Pagamento.cpp
+	Quarto.cpp
+	Quarto_Luxo.cpp
+	Quarto_Simples.cpp
+	Quarto_Suite.cpp
+	Reserva.cpp
+	Dados.cpp
 
 )
 add_library(Include ${SOURCE_FILES} ${HEADER_FILES})

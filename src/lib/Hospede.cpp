@@ -1,18 +1,24 @@
 #include "Hospede.h"
-#include "Cliente.h"
 #include <sstream>
 
-// Construtor
-Hospede::Hospede(const string& nome, const string& cpf, const string& telefone, const string& email)
-: Cliente(nome, cpf, telefone), email(email) {}
+// Constructor
+Hospede::Hospede( const std::string& nome, const std::string& email, const std::string& telefone)
+: Cliente(nome, "", telefone, ""), email(email) {}
 
-// Getters e Setters...
+// Getters and Setters
+std::string Hospede::getEmail() const {
+    return email;
+}
+
+void Hospede::setEmail(const std::string& email) {
+    this->email = email;
+}
 
 void Hospede::addReserva(const Reserva& reserva) {
     reservas.push_back(reserva);
 }
 
-vector<Reserva> Hospede::getReservas() const {
+std::vector<Reserva> Hospede::getReservas() const {
     return reservas;
 }
 
@@ -20,36 +26,23 @@ void Hospede::addAvaliacao(const Avaliacoes& avaliacao) {
     avaliacoes.push_back(avaliacao);
 }
 
-vector<Avaliacoes> Hospede::getAvaliacoes() const {
+std::vector<Avaliacoes> Hospede::getAvaliacoes() const {
     return avaliacoes;
 }
 
-// Método para converter informações do hóspede em formato CSV
-string Hospede::paraCSV() const {
+// Método para CSV
+std::string Hospede::paraCSV() const {
     std::stringstream ss;
-    
-    ss << Cliente::paraCSV() << "," << email;
-
-    // Implement logic to convert reservas and avaliacoes to CSV if necessary
-    
+    ss << "," << getNome() << "," << getEmail() << "," << getTelefone();
     return ss.str();
 }
 
-// Método para criar um objeto Hospede a partir de uma string CSV
+// Method to create a Hospede object from a CSV string
 Hospede Hospede::fromCSV(const std::string& csv) {
-    std::istringstream iss(csv);
-    
-    // Parse the CSV string properly including reservas and avaliacoes if they are part of the CSV
-    
-    // Example assuming that Cliente::fromCSV handles its part
-    Cliente c = Cliente::fromCSV(iss(csv)); 
-    std::string email;
-    
-    std::getline(iss, email, ',');
-    
-    Hospede h = Hospede(c.getNome(), c.getCpf(), c.getTelefone(), email);
-
-    // Parse reservas and avaliacoes if they are part of the CSV
-    
-    return h;
+    std::stringstream ss(csv);
+    std::string nome, email, telefone;
+    std::getline(ss, nome, ',');
+    std::getline(ss, email, ',');
+    std::getline(ss, telefone, ',');
+    return Hospede(nome, email, telefone);
 }

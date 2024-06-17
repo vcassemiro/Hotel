@@ -1,18 +1,29 @@
 #include "Servico.h"
 #include <sstream>
 
-// Construtor
-Servico::Servico(int idServico, string descricao, double preco)
-: idServico(idServico), descricao(descricao), preco(preco) {}
+Servico::Servico(int idServico, string descricao, double preco) {
+    this->idServico = idServico;
+    this->descricao = descricao;
+    this->preco = preco;
+}
 
-// Destrutor
 Servico::~Servico() {}
 
-// Getters e Setters...
-
-// Método para converter informações do serviço em formato CSV
 string Servico::paraCSV() {
-    std::stringstream ss;
+    stringstream ss;
     ss << idServico << "," << descricao << "," << preco;
     return ss.str();
+}
+
+Servico Servico::fromCSV(const std::string& csv) {
+    stringstream ss(csv);
+    string idServicoStr, descricao, precoStr;
+    getline(ss, idServicoStr, ',');
+    getline(ss, descricao, ',');
+    getline(ss, precoStr, ',');
+
+    int idServico = stoi(idServicoStr);
+    double preco = stod(precoStr);
+
+    return Servico(idServico, descricao, preco);
 }

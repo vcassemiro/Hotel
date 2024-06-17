@@ -17,7 +17,7 @@ private:
 public:
     Dados(const std::string& fileName);
     ~Dados();
-
+    
     std::vector<Quarto> carregarQuartos();
     std::vector<Hospede> carregarHospedes();
     std::vector<Reserva> carregarReservas();

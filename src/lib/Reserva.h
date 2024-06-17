@@ -20,33 +20,33 @@ private:
 
 public:
     Reserva(const std::string& dtCheckIN, const std::string& dtCheckOUT, Hospede* hospede, Quarto* quarto, double valor);
-    virtual ~Reserva(); // Destrutor virtual para permitir polimorfismo
+    virtual ~Reserva(); // Virtual destructor to allow polymorphism
 
-    // Getters e Setters
-    const std::string& getDtCheckIN() const { return dtCheckIN; }
-    void setDtCheckIN(const std::string& dt) { dtCheckIN = dt; }
+    // Getters and Setters
+    const std::string& getDtCheckIN() const;
+    void setDtCheckIN(const std::string& dt);
 
-    const std::string& getDtCheckOUT() const { return dtCheckOUT; }
-    void setDtCheckOUT(const std::string& dt) { dtCheckOUT = dt; }
+    const std::string& getDtCheckOUT() const;
+    void setDtCheckOUT(const std::string& dt);
 
-    Hospede* getHospede() const { return hospede; }
-    void setHospede(Hospede* h) { hospede = h; }
+    Hospede* getHospede() const;
+    void setHospede(Hospede* h);
 
-    Quarto* getQuarto() const { return quarto; }
-    void setQuarto(Quarto* q) { quarto = q; }
+    Quarto* getQuarto() const;
+    void setQuarto(Quarto* q);
 
-    double getValor() const { return valor; }
-    void setValor(double v) { valor = v; }
+    double getValor() const;
+    void setValor(double v);
 
-    // Métodos para gerenciar serviços
+    // Methods to manage services
     void addServico(const Servico& servico);
     const std::vector<Servico>& getServicos() const;
 
-    // Métodos para gerenciar pagamentos
+    // Methods to manage payments
     void addPagamento(const Pagamento& pagamento);
     const std::vector<Pagamento>& getPagamentos() const;
 
-    // Método para converter informações da reserva em formato CSV
+    // Method to convert reservation information to CSV format
     std::string paraCSV() const;
     static Reserva fromCSV(const std::string& csv);
 };

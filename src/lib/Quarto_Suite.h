@@ -1,18 +1,19 @@
 #ifndef QUARTO_SUITE_H
 #define QUARTO_SUITE_H
 
-#include <iostream>
-#include <string>
 #include "Quarto.h"
-
-using std::string;
-using std::cout;
-using std::endl;
+#include <vector>
+#include <string>
 
 class Quarto_Suite : public Quarto {
 public:
-    Quarto_Suite(int idQuarto, int idHotel, double preco, bool disponivel);
-    ~Quarto_Suite();
+    Quarto_Suite(int idQuarto, int idHotel, double preco, bool disponivel)
+        : Quarto(idQuarto, idHotel, "Suite", preco, disponivel) {}
+
+    
+
+private:
+   
 };
 
 #endif // QUARTO_SUITE_H

@@ -18,7 +18,7 @@ private:
     string endereco;
     vector<Quarto> quartos;
     vector<Hospede> hospedes;
-    vector<Avaliacao> avaliacoes;
+    vector<Avaliacoes> avaliacoes;
     vector<Pagamento> pagamentos;
 
 public:
@@ -32,8 +32,8 @@ public:
     vector<Hospede> getHospedes();
 
     // Métodos para gerenciar avaliações...
-    void addAvaliacao(Avaliacao avaliacao);
-    vector<Avaliacao> getAvaliacoes();
+    void addAvaliacao(Avaliacoes avaliacao);
+    vector<Avaliacoes> getAvaliacoes();
 
     // Métodos para gerenciar pagamentos...
     void addPagamento(Pagamento pagamento);

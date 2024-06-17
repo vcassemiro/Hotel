@@ -1,41 +1,78 @@
-#include "Avaliacao.h"
 
-// Implementações dos Getters e Setters...
 
-// Construtor
+#include <string>
+#include "Hospede.h"
+#include "Reserva.h"
+#include <sstream>
+
 Avaliacoes::Avaliacoes(const std::string& comentario, int nota, Hospede& hospede, Reserva& reserva)
-: comentario(comentario), nota(nota), hospede(hospede), reserva(reserva) {}
+    : comentario(comentario), nota(nota), hospede(hospede), reserva(reserva) {
+}
 
-// Destrutor
 Avaliacoes::~Avaliacoes() {
-    // Decidir se é necessário desalocar os objetos referenciados
 }
 
-// Método para converter informações da avaliação em formato CSV
+std::string Avaliacoes::getComentario() const {
+    return comentario;
+}
+
+void Avaliacoes::setComentario(const std::string& comentario) {
+    this->comentario = comentario;
+}
+
+int Avaliacoes::getNota() const {
+    return nota;
+}
+
+void Avaliacoes::setNota(int nota) {
+    this->nota = nota;
+}
+
+Hospede& Avaliacoes::getHospede() const {
+    return hospede;
+}
+
+Reserva& Avaliacoes::getReserva() const {
+    return reserva;
+}
+
 std::string Avaliacoes::paraCSV() const {
-    return comentario + "," + std::to_string(nota) + "," +
-           hospede.getNome() + "," + reserva.getCodigo();
+    std::string csv;
+    // Convert Avaliacoes object to CSV string
+    // Append comentario
+    csv += comentario + ",";
+    // Append nota
+    csv += std::to_string(nota) + ",";
+    // Append hospede name
+    csv += hospede.getNome() + ",";
+    // Append reserva details
+    //csv += reserva.getDetalhes() + ",";
+    // Remove the last comma
+    csv.pop_back();
+    return csv;
 }
 
-// Método fromCSV com tratamento de erros
 Avaliacoes Avaliacoes::fromCSV(const std::string& csv) {
-    std::istringstream iss(csv);
-    
-    std::string comentario;
-    int nota;
-    
-    // Parse do comentário
-    if (!std::getline(iss, comentario, ',')) {
-        throw std::runtime_error("Erro ao ler o comentário da avaliação");
+    // Implementation for creating Avaliacoes object from CSV string
+    // ...
+    // Split the CSV string into individual values
+    std::vector<std::string> values;
+    std::istringstream ss(csv); // Use std::istringstream instead of std::stringstream
+    std::string token;
+    while (std::getline(ss, token, ',')) {
+        values.push_back(token);
     }
     
-    // Parse da nota (a implementar)
+    // Create Avaliacoes object using the values
+    std::string comentario = values[0];
+    int nota = std::stoi(values[1]);
+    std::string hospedeCSV = values[2];
+    std::string reservaCSV = values[3];
     
-    // Criação dos objetos Hospede e Reserva (a implementar)
+    Hospede hospede = Hospede::fromCSV(hospedeCSV); // Use the fromCSV method to create a Hospede instance
+    Reserva reserva = Reserva::fromCSV(reservaCSV); // Use the fromCSV method to create a Reserva instance
     
-    // Supondo que temos objetos hospede e reserva válidos
-    Hospede hospede; // Substituir pela criação real do objeto
-    Reserva reserva; // Substituir pela criação real do objeto
+    Avaliacoes avaliacoes(comentario, nota, hospede, reserva);
     
-    return Avaliacoes(comentario, nota, hospede, reserva);
-}
+    return avaliacoes;
+    }

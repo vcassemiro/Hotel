@@ -21,11 +21,11 @@ vector<Hospede> Hotel::getHospedes() {
 }
 
 // Métodos para gerenciar avaliações...
-void Hotel::addAvaliacao(Avaliacao avaliacao) {
+void Hotel::addAvaliacao(Avaliacoes avaliacao) {
     avaliacoes.push_back(avaliacao);
 }
 
-vector<Avaliacao> Hotel::getAvaliacoes() {
+vector<Avaliacoes> Hotel::getAvaliacoes() {
     return avaliacoes;
 }
 

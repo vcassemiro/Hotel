@@ -1,11 +1,17 @@
 #include "Quarto.h"
+#include "Reserva.h"
 #include <sstream>
 #include <stdexcept> // Para std::invalid_argument
 
-// Construtor
-Quarto::Quarto(int idQ, int idH, const std::string& t, double p, bool d)
-    : idQuarto(idQ), idHotel(idH), tipo(t), preco(p), disponivel(d) {}
 
+    Quarto::Quarto(int idQuarto, int idHotel, const std::string& tipo, double preco, bool disponivel) :
+     idQuarto(idQuarto), idHotel(idHotel), tipo(tipo), preco(preco), disponivel(disponivel)
+    {
+        // Add any additional initialization code here if needed
+    }
+       
+
+    
 // Destrutor
 Quarto::~Quarto() {
     // Aqui você pode adicionar código para limpar recursos alocados dinamicamente, se necessário

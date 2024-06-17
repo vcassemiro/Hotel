@@ -1,9 +1,6 @@
-#ifndef SERVICO_H
-#define SERVICO_H
-
 #include <string>
+using namespace std;
 
-using std::string;
 
 class Servico {
 private:
@@ -15,10 +12,35 @@ public:
     Servico(int idServico, string descricao, double preco);
     ~Servico();
 
-    // Getters e Setters...
+    // Getters
+    int getIdServico() const {
+        return idServico;
+    }
+
+    string getDescricao() const {
+        return descricao;
+    }
+
+    double getPreco() const {
+        return preco;
+    }
+
+    // Setters
+    void setIdServico(int id) {
+        idServico = id;
+    }
+
+    void setDescricao(const string& desc) {
+        descricao = desc;
+    }
+
+    void setPreco(double p) {
+        preco = p;
+    }
 
     // Método para CSV
     string paraCSV();
+    static Servico fromCSV(const std::string& csv);
 };
 
-#endif // SERVICO_H
+
