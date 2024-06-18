@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/abseil-populate-prefix/src/abseil-populate-stamp/download-abseil-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/abseil-populate-prefix/src/abseil-populate-stamp/verify-abseil-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/abseil-populate-prefix/src/abseil-populate-stamp/extract-abseil-populate.cmake
+source_dir=C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-src
+work_dir=C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps
+url(s)=https://github.com/abseil/abseil-cpp/archive/master.zip
+hash=
+      no_extract=
+

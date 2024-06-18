@@ -1,0 +1,14 @@
+# Target labels
+ abseil-populate
+# Source files and their labels
+C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/CMakeFiles/abseil-populate
+C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/CMakeFiles/e6b5b0cc634454c4999d2a332e15df6c/abseil-populate.rule
+C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/CMakeFiles/853c3b64f7d2b8f03d36d19f7c680b27/abseil-populate-complete.rule
+C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/CMakeFiles/1c5198f47814a38e26a647b96e4461a8/abseil-populate-build.rule
+C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/CMakeFiles/1c5198f47814a38e26a647b96e4461a8/abseil-populate-configure.rule
+C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/CMakeFiles/1c5198f47814a38e26a647b96e4461a8/abseil-populate-download.rule
+C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/CMakeFiles/1c5198f47814a38e26a647b96e4461a8/abseil-populate-install.rule
+C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/CMakeFiles/1c5198f47814a38e26a647b96e4461a8/abseil-populate-mkdir.rule
+C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/CMakeFiles/1c5198f47814a38e26a647b96e4461a8/abseil-populate-patch.rule
+C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/CMakeFiles/1c5198f47814a38e26a647b96e4461a8/abseil-populate-test.rule
+C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/CMakeFiles/1c5198f47814a38e26a647b96e4461a8/abseil-populate-update.rule

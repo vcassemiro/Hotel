@@ -1,0 +1,10 @@
+^C:\USERS\VICTO\ONEDRIVE\ÁREA DE TRABALHO\NOVA PASTA\HOTEL\BUILD\_DEPS\ABSEIL-SRC\ABSL\CRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel" "-BC:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build" --check-stamp-file "C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/build/_deps/abseil-src/absl/crc/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

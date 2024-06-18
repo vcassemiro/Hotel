@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Pessoa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Avaliacao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Cliente.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Hospede.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Hotel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Pagamento.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto_Luxo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto_Simples.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto_Suite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Reserva.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Dados.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Pessoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Avaliacao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Cliente.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Hospede.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Hotel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Pagamento.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto_Luxo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto_Simples.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto_Suite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Reserva.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Dados.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BA28268E-9A68-3BDC-9289-647F78A506F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CEFD8D2E-EC25-35EE-B9B0-931D4DA6425B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

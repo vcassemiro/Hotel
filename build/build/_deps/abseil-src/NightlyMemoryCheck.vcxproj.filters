@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\build\CMakeFiles\f01793229b313c23c5a349a1cd3cea86\NightlyMemoryCheck.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\build\_deps\abseil-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\build\build\_deps\abseil-src\CMakeFiles\NightlyMemoryCheck" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{341106AF-7F88-3ABD-A40C-C84DB32B0DB3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
