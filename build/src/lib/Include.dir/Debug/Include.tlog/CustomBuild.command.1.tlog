@@ -1,6 +1,6 @@
-^C:\USERS\VICTO\ONEDRIVE\ÁREA DE TRABALHO\NOVA PASTA\HOTEL\SRC\LIB\CMAKELISTS.TXT
+^C:\USERS\VICTO\ONEDRIVE\DOCUMENTOS\TESTE HOTEL\HOTEL\SRC\LIB\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel" "-BC:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build" --check-stamp-file "C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/src/lib/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel" "-BC:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build" --check-stamp-file "C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/src/lib/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

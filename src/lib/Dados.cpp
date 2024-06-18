@@ -107,6 +107,13 @@ void Dados::salvarAvaliacoes(const std::vector<Avaliacoes>& avaliacoes) {
     }
 }
 
+void Dados::salvarServicos(const std::vector<Servico>& servicos) {
+    std::ofstream file(fileName, std::ios::app);
+    for (const auto& servico : servicos) {
+        file << "Servico," << servico.paraCSV() << std::endl;
+    }
+}
+
 std::vector<Servico> Dados::carregarServicos() {
     std::vector<Servico> servicos;
     std::ifstream file(fileName);
@@ -122,3 +129,5 @@ std::vector<Servico> Dados::carregarServicos() {
 }
 
 Dados dados("Dados.csv");
+
+

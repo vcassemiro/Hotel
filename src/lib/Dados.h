@@ -13,25 +13,25 @@
 
 class Dados {
 public:
-    Dados(const std::string& fileName);
+    Dados(const std::string &);
+    std::vector<Pagamento> carregarPagamentos(void);
+    std::vector<Avaliacoes> carregarAvaliacoes(void);
+    std::vector<Quarto> carregarQuartos(void);
+    std::vector<Hospede> carregarHospedes(void);
+    std::vector<Reserva> carregarReservas(void);
+    std::vector<Servico> carregarServicos(void);
+    void salvarQuartos(const std::vector<Quarto> &);
+    void salvarHospedes(const std::vector<Hospede> &);
+    void salvarReservas(const std::vector<Reserva> &);
+    void salvarPagamentos(const std::vector<Pagamento> &);
+    void salvarAvaliacoes(const std::vector<Avaliacoes> &);
+    void salvarServicos(const std::vector<Servico> &);
 
-    std::vector<Pagamento> carregarPagamentos();
-    std::vector<Avaliacoes> carregarAvaliacoes();
-    std::vector<Quarto> carregarQuartos();
-    std::vector<Hospede> carregarHospedes();
-    std::vector<Reserva> carregarReservas();
-    std::vector<Servico> carregarServicos();
-
-    void salvarQuartos(const std::vector<Quarto>& quartos);
-    void salvarHospedes(const std::vector<Hospede>& hospedes);
-    void salvarReservas(const std::vector<Reserva>& reservas);
-    void salvarPagamentos(const std::vector<Pagamento>& pagamentos);
-    void salvarAvaliacoes(const std::vector<Avaliacoes>& avaliacoes);
-
-private:
+private:private:
     std::string fileName;
 };
 extern Dados dados;
 
 #endif // DADOS_H
+
 

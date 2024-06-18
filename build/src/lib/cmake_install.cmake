@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/src/lib
+# Install script for directory: C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/src/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

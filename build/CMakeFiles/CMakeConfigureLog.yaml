@@ -24,9 +24,9 @@ events:
       The output was:
       0
       Vers├úo do MSBuild 17.10.4+10fbfbf2e para .NET Framework
-      Compila├º├úo de 16/06/2024 22:25:31 iniciada.
+      Compila├º├úo de 18/06/2024 18:49:09 iniciada.
       
-      Projeto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
+      Projeto "C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
       PrepareForBuild:
         Criando o diret├│rio "Debug\\".
         A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
@@ -39,7 +39,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -47,13 +47,13 @@ events:
       FinalizeBuildStatus:
         Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Projeto de compila├º├úo pronto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padr├úo).
+      Projeto de compila├º├úo pronto "C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padr├úo).
       
       Compila├º├úo com ├¬xito.
           0 Aviso(s)
           0 Erro(s)
       
-      Tempo Decorrido 00:00:01.94
+      Tempo Decorrido 00:00:01.16
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -61,7 +61,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/CMakeFiles/3.30.0-rc3/CompilerIdC/CompilerIdC.exe
+        C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/CMakeFiles/3.30.0-rc3/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -79,9 +79,9 @@ events:
       The output was:
       0
       Vers├úo do MSBuild 17.10.4+10fbfbf2e para .NET Framework
-      Compila├º├úo de 16/06/2024 22:25:33 iniciada.
+      Compila├º├úo de 18/06/2024 18:49:10 iniciada.
       
-      Projeto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
+      Projeto "C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
       PrepareForBuild:
         Criando o diret├│rio "Debug\\".
         A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
@@ -94,7 +94,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -102,13 +102,13 @@ events:
       FinalizeBuildStatus:
         Excluindo o arquivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Tocando "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Projeto de compila├º├úo pronto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padr├úo).
+      Projeto de compila├º├úo pronto "C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padr├úo).
       
       Compila├º├úo com ├¬xito.
           0 Aviso(s)
           0 Erro(s)
       
-      Tempo Decorrido 00:00:01.96
+      Tempo Decorrido 00:00:00.82
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -116,7 +116,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/CMakeFiles/3.30.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/CMakeFiles/3.30.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-veu37g"
-      binary: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-veu37g"
+      source: "C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-i7q0vo"
+      binary: "C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-i7q0vo"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
@@ -136,40 +136,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-veu37g'
+        Change Dir: 'C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-i7q0vo'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fe2f4.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9dda5.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.10.4+10fbfbf2e para .NET Framework
-        Compila├º├úo de 16/06/2024 22:25:36 iniciada.
+        Compila├º├úo de 18/06/2024 18:49:12 iniciada.
         
-        Projeto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-veu37g\\cmTC_fe2f4.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i7q0vo\\cmTC_9dda5.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
-          Criando o diret├│rio "cmTC_fe2f4.dir\\Debug\\".
+          Criando o diret├│rio "cmTC_9dda5.dir\\Debug\\".
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-veu37g\\Debug\\".
-          Criando o diret├│rio "cmTC_fe2f4.dir\\Debug\\cmTC_fe2f4.tlog\\".
+          Criando o diret├│rio "C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i7q0vo\\Debug\\".
+          Criando o diret├│rio "cmTC_9dda5.dir\\Debug\\cmTC_9dda5.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_fe2f4.dir\\Debug\\cmTC_fe2f4.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_fe2f4.dir\\Debug\\cmTC_fe2f4.tlog\\unsuccessfulbuild".
+          Criando "cmTC_9dda5.dir\\Debug\\cmTC_9dda5.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_9dda5.dir\\Debug\\cmTC_9dda5.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe2f4.dir\\Debug\\\\" /Fd"cmTC_fe2f4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9dda5.dir\\Debug\\\\" /Fd"cmTC_9dda5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.40.33811 para x86
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe2f4.dir\\Debug\\\\" /Fd"cmTC_fe2f4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9dda5.dir\\Debug\\\\" /Fd"cmTC_9dda5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-veu37g\\Debug\\cmTC_fe2f4.exe" /INCREMENTAL /ILK:"cmTC_fe2f4.dir\\Debug\\cmTC_fe2f4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/victo/OneDrive/├ürea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-veu37g/Debug/cmTC_fe2f4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/victo/OneDrive/├ürea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-veu37g/Debug/cmTC_fe2f4.lib" /MACHINE:X86  /machine:X86 cmTC_fe2f4.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_fe2f4.vcxproj -> C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-veu37g\\Debug\\cmTC_fe2f4.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i7q0vo\\Debug\\cmTC_9dda5.exe" /INCREMENTAL /ILK:"cmTC_9dda5.dir\\Debug\\cmTC_9dda5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-i7q0vo/Debug/cmTC_9dda5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-i7q0vo/Debug/cmTC_9dda5.lib" /MACHINE:X86  /machine:X86 cmTC_9dda5.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9dda5.vcxproj -> C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i7q0vo\\Debug\\cmTC_9dda5.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_fe2f4.dir\\Debug\\cmTC_fe2f4.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_fe2f4.dir\\Debug\\cmTC_fe2f4.tlog\\cmTC_fe2f4.lastbuildstate".
-        Projeto de compila├º├úo pronto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-veu37g\\cmTC_fe2f4.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_9dda5.dir\\Debug\\cmTC_9dda5.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_9dda5.dir\\Debug\\cmTC_9dda5.tlog\\cmTC_9dda5.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i7q0vo\\cmTC_9dda5.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
             0 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:02.16
+        Tempo Decorrido 00:00:01.07
         
       exitCode: 0
   -
@@ -209,8 +209,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-h7mv8p"
-      binary: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-h7mv8p"
+      source: "C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-f5oegk"
+      binary: "C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-f5oegk"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -219,40 +219,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-h7mv8p'
+        Change Dir: 'C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-f5oegk'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7b101.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4b868.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.10.4+10fbfbf2e para .NET Framework
-        Compila├º├úo de 16/06/2024 22:25:39 iniciada.
+        Compila├º├úo de 18/06/2024 18:49:13 iniciada.
         
-        Projeto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h7mv8p\\cmTC_7b101.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f5oegk\\cmTC_4b868.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
-          Criando o diret├│rio "cmTC_7b101.dir\\Debug\\".
+          Criando o diret├│rio "cmTC_4b868.dir\\Debug\\".
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h7mv8p\\Debug\\".
-          Criando o diret├│rio "cmTC_7b101.dir\\Debug\\cmTC_7b101.tlog\\".
+          Criando o diret├│rio "C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f5oegk\\Debug\\".
+          Criando o diret├│rio "cmTC_4b868.dir\\Debug\\cmTC_4b868.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_7b101.dir\\Debug\\cmTC_7b101.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_7b101.dir\\Debug\\cmTC_7b101.tlog\\unsuccessfulbuild".
+          Criando "cmTC_4b868.dir\\Debug\\cmTC_4b868.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_4b868.dir\\Debug\\cmTC_4b868.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7b101.dir\\Debug\\\\" /Fd"cmTC_7b101.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4b868.dir\\Debug\\\\" /Fd"cmTC_4b868.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.40.33811 para x86
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7b101.dir\\Debug\\\\" /Fd"cmTC_7b101.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4b868.dir\\Debug\\\\" /Fd"cmTC_4b868.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h7mv8p\\Debug\\cmTC_7b101.exe" /INCREMENTAL /ILK:"cmTC_7b101.dir\\Debug\\cmTC_7b101.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/victo/OneDrive/├ürea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-h7mv8p/Debug/cmTC_7b101.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/victo/OneDrive/├ürea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-h7mv8p/Debug/cmTC_7b101.lib" /MACHINE:X86  /machine:X86 cmTC_7b101.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_7b101.vcxproj -> C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h7mv8p\\Debug\\cmTC_7b101.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f5oegk\\Debug\\cmTC_4b868.exe" /INCREMENTAL /ILK:"cmTC_4b868.dir\\Debug\\cmTC_4b868.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-f5oegk/Debug/cmTC_4b868.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-f5oegk/Debug/cmTC_4b868.lib" /MACHINE:X86  /machine:X86 cmTC_4b868.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_4b868.vcxproj -> C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f5oegk\\Debug\\cmTC_4b868.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_7b101.dir\\Debug\\cmTC_7b101.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_7b101.dir\\Debug\\cmTC_7b101.tlog\\cmTC_7b101.lastbuildstate".
-        Projeto de compila├º├úo pronto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h7mv8p\\cmTC_7b101.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_4b868.dir\\Debug\\cmTC_4b868.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_4b868.dir\\Debug\\cmTC_4b868.tlog\\cmTC_4b868.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\victo\\OneDrive\\Documentos\\Teste Hotel\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f5oegk\\cmTC_4b868.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
             0 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:01.98
+        Tempo Decorrido 00:00:00.80
         
       exitCode: 0
   -
@@ -283,294 +283,4 @@ events:
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX86/x86/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.40.33811.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "build/_deps/abseil-src/CMake/AbseilDll.cmake:697 (check_cxx_source_compiles)"
-      - "build/_deps/abseil-src/CMakeLists.txt:97 (include)"
-    checks:
-      - "Performing Test ABSL_INTERNAL_AT_LEAST_CXX17"
-    directories:
-      source: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-cddcer"
-      binary: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-cddcer"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /WX"
-      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
-      CMAKE_MODULE_PATH: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/_deps/abseil-src/CMake;C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/_deps/abseil-src/absl/copts"
-    buildResult:
-      variable: "ABSL_INTERNAL_AT_LEAST_CXX17"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-cddcer'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_81a5b.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
-        Vers├úo do MSBuild 17.10.4+10fbfbf2e para .NET Framework
-        Compila├º├úo de 16/06/2024 22:25:51 iniciada.
-        
-        Projeto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cddcer\\cmTC_81a5b.vcxproj" no n├│ 1 (destinos padr├úo).
-        PrepareForBuild:
-          Criando o diret├│rio "cmTC_81a5b.dir\\Debug\\".
-          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cddcer\\Debug\\".
-          Criando o diret├│rio "cmTC_81a5b.dir\\Debug\\cmTC_81a5b.tlog\\".
-        InitializeBuildStatus:
-          Criando "cmTC_81a5b.dir\\Debug\\cmTC_81a5b.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_81a5b.dir\\Debug\\cmTC_81a5b.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D ABSL_INTERNAL_AT_LEAST_CXX17 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++20 /Fo"cmTC_81a5b.dir\\Debug\\\\" /Fd"cmTC_81a5b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cddcer\\src.cxx"
-          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.40.33811 para x86
-          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W3 /WX /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D ABSL_INTERNAL_AT_LEAST_CXX17 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++20 /Fo"cmTC_81a5b.dir\\Debug\\\\" /Fd"cmTC_81a5b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cddcer\\src.cxx"
-          src.cxx
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cddcer\\Debug\\cmTC_81a5b.exe" /INCREMENTAL /ILK:"cmTC_81a5b.dir\\Debug\\cmTC_81a5b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/victo/OneDrive/├ürea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-cddcer/Debug/cmTC_81a5b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/victo/OneDrive/├ürea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-cddcer/Debug/cmTC_81a5b.lib" /MACHINE:X86  /machine:X86 cmTC_81a5b.dir\\Debug\\src.obj
-          cmTC_81a5b.vcxproj -> C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cddcer\\Debug\\cmTC_81a5b.exe
-        FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_81a5b.dir\\Debug\\cmTC_81a5b.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_81a5b.dir\\Debug\\cmTC_81a5b.tlog\\cmTC_81a5b.lastbuildstate".
-        Projeto de compila├º├úo pronto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cddcer\\cmTC_81a5b.vcxproj" (destinos padr├úo).
-        
-        Compila├º├úo com ├¬xito.
-            0 Aviso(s)
-            0 Erro(s)
-        
-        Tempo Decorrido 00:00:02.19
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "build/_deps/abseil-src/CMake/AbseilDll.cmake:710 (check_cxx_source_compiles)"
-      - "build/_deps/abseil-src/CMakeLists.txt:97 (include)"
-    checks:
-      - "Performing Test ABSL_INTERNAL_AT_LEAST_CXX20"
-    directories:
-      source: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-d5jnl7"
-      binary: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-d5jnl7"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /WX"
-      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
-      CMAKE_MODULE_PATH: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/_deps/abseil-src/CMake;C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/_deps/abseil-src/absl/copts"
-    buildResult:
-      variable: "ABSL_INTERNAL_AT_LEAST_CXX20"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-d5jnl7'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_35369.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
-        Vers├úo do MSBuild 17.10.4+10fbfbf2e para .NET Framework
-        Compila├º├úo de 16/06/2024 22:25:54 iniciada.
-        
-        Projeto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5jnl7\\cmTC_35369.vcxproj" no n├│ 1 (destinos padr├úo).
-        PrepareForBuild:
-          Criando o diret├│rio "cmTC_35369.dir\\Debug\\".
-          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5jnl7\\Debug\\".
-          Criando o diret├│rio "cmTC_35369.dir\\Debug\\cmTC_35369.tlog\\".
-        InitializeBuildStatus:
-          Criando "cmTC_35369.dir\\Debug\\cmTC_35369.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_35369.dir\\Debug\\cmTC_35369.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D ABSL_INTERNAL_AT_LEAST_CXX20 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++20 /Fo"cmTC_35369.dir\\Debug\\\\" /Fd"cmTC_35369.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5jnl7\\src.cxx"
-          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.40.33811 para x86
-          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W3 /WX /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D ABSL_INTERNAL_AT_LEAST_CXX20 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++20 /Fo"cmTC_35369.dir\\Debug\\\\" /Fd"cmTC_35369.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5jnl7\\src.cxx"
-          src.cxx
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5jnl7\\Debug\\cmTC_35369.exe" /INCREMENTAL /ILK:"cmTC_35369.dir\\Debug\\cmTC_35369.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/victo/OneDrive/├ürea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-d5jnl7/Debug/cmTC_35369.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/victo/OneDrive/├ürea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-d5jnl7/Debug/cmTC_35369.lib" /MACHINE:X86  /machine:X86 cmTC_35369.dir\\Debug\\src.obj
-          cmTC_35369.vcxproj -> C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5jnl7\\Debug\\cmTC_35369.exe
-        FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_35369.dir\\Debug\\cmTC_35369.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_35369.dir\\Debug\\cmTC_35369.tlog\\cmTC_35369.lastbuildstate".
-        Projeto de compila├º├úo pronto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5jnl7\\cmTC_35369.vcxproj" (destinos padr├úo).
-        
-        Compila├º├úo com ├¬xito.
-            0 Aviso(s)
-            0 Erro(s)
-        
-        Tempo Decorrido 00:00:02.12
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
-      - "build/_deps/abseil-src/CMakeLists.txt:123 (find_package)"
-    checks:
-      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
-    directories:
-      source: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-5d3kyk"
-      binary: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-5d3kyk"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
-      CMAKE_MODULE_PATH: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/_deps/abseil-src/CMake;C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/_deps/abseil-src/absl/copts"
-    buildResult:
-      variable: "CMAKE_HAVE_LIBC_PTHREAD"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-5d3kyk'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7f0a4.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
-        Vers├úo do MSBuild 17.10.4+10fbfbf2e para .NET Framework
-        Compila├º├úo de 16/06/2024 22:25:57 iniciada.
-        
-        Projeto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5d3kyk\\cmTC_7f0a4.vcxproj" no n├│ 1 (destinos padr├úo).
-        PrepareForBuild:
-          Criando o diret├│rio "cmTC_7f0a4.dir\\Debug\\".
-          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5d3kyk\\Debug\\".
-          Criando o diret├│rio "cmTC_7f0a4.dir\\Debug\\cmTC_7f0a4.tlog\\".
-        InitializeBuildStatus:
-          Criando "cmTC_7f0a4.dir\\Debug\\cmTC_7f0a4.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_7f0a4.dir\\Debug\\cmTC_7f0a4.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f0a4.dir\\Debug\\\\" /Fd"cmTC_7f0a4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5d3kyk\\src.c"
-          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.40.33811 para x86
-          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f0a4.dir\\Debug\\\\" /Fd"cmTC_7f0a4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5d3kyk\\src.c"
-          src.c
-        C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5d3kyk\\src.c(1,10): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'pthread.h': No such file or directory [C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5d3kyk\\cmTC_7f0a4.vcxproj]
-        Projeto de compila├º├úo pronto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5d3kyk\\cmTC_7f0a4.vcxproj" (destinos padr├úo) -- FALHA.
-        
-        FALHA da compila├º├úo.
-        
-        "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5d3kyk\\cmTC_7f0a4.vcxproj" (destino padr├úo) (1) ->
-        (ClCompile destino) -> 
-          C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5d3kyk\\src.c(1,10): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'pthread.h': No such file or directory [C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5d3kyk\\cmTC_7f0a4.vcxproj]
-        
-            0 Aviso(s)
-            1 Erro(s)
-        
-        Tempo Decorrido 00:00:01.93
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
-      - "build/_deps/abseil-src/CMakeLists.txt:123 (find_package)"
-    checks:
-      - "Looking for pthread_create in pthreads"
-    directories:
-      source: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-hrhnqm"
-      binary: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-hrhnqm"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
-      CMAKE_MODULE_PATH: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/_deps/abseil-src/CMake;C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/_deps/abseil-src/absl/copts"
-    buildResult:
-      variable: "CMAKE_HAVE_PTHREADS_CREATE"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-hrhnqm'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_23a7a.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
-        Vers├úo do MSBuild 17.10.4+10fbfbf2e para .NET Framework
-        Compila├º├úo de 16/06/2024 22:25:59 iniciada.
-        
-        Projeto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hrhnqm\\cmTC_23a7a.vcxproj" no n├│ 1 (destinos padr├úo).
-        PrepareForBuild:
-          Criando o diret├│rio "cmTC_23a7a.dir\\Debug\\".
-          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hrhnqm\\Debug\\".
-          Criando o diret├│rio "cmTC_23a7a.dir\\Debug\\cmTC_23a7a.tlog\\".
-        InitializeBuildStatus:
-          Criando "cmTC_23a7a.dir\\Debug\\cmTC_23a7a.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_23a7a.dir\\Debug\\cmTC_23a7a.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_23a7a.dir\\Debug\\\\" /Fd"cmTC_23a7a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hrhnqm\\CheckFunctionExists.c"
-          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.40.33811 para x86
-          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_23a7a.dir\\Debug\\\\" /Fd"cmTC_23a7a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hrhnqm\\CheckFunctionExists.c"
-          CheckFunctionExists.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hrhnqm\\Debug\\cmTC_23a7a.exe" /INCREMENTAL /ILK:"cmTC_23a7a.dir\\Debug\\cmTC_23a7a.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/victo/OneDrive/├ürea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-hrhnqm/Debug/cmTC_23a7a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/victo/OneDrive/├ürea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-hrhnqm/Debug/cmTC_23a7a.lib" /MACHINE:X86  /machine:X86 cmTC_23a7a.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthreads.lib' [C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hrhnqm\\cmTC_23a7a.vcxproj]
-        Projeto de compila├º├úo pronto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hrhnqm\\cmTC_23a7a.vcxproj" (destinos padr├úo) -- FALHA.
-        
-        FALHA da compila├º├úo.
-        
-        "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hrhnqm\\cmTC_23a7a.vcxproj" (destino padr├úo) (1) ->
-        (Link destino) -> 
-          LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthreads.lib' [C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hrhnqm\\cmTC_23a7a.vcxproj]
-        
-            0 Aviso(s)
-            1 Erro(s)
-        
-        Tempo Decorrido 00:00:02.03
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
-      - "build/_deps/abseil-src/CMakeLists.txt:123 (find_package)"
-    checks:
-      - "Looking for pthread_create in pthread"
-    directories:
-      source: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-xjf06l"
-      binary: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-xjf06l"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
-      CMAKE_MODULE_PATH: "C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/_deps/abseil-src/CMake;C:/Users/victo/OneDrive/\u00c1rea de Trabalho/Nova pasta/Hotel/build/_deps/abseil-src/absl/copts"
-    buildResult:
-      variable: "CMAKE_HAVE_PTHREAD_CREATE"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-xjf06l'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8f482.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
-        Vers├úo do MSBuild 17.10.4+10fbfbf2e para .NET Framework
-        Compila├º├úo de 16/06/2024 22:26:02 iniciada.
-        
-        Projeto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjf06l\\cmTC_8f482.vcxproj" no n├│ 1 (destinos padr├úo).
-        PrepareForBuild:
-          Criando o diret├│rio "cmTC_8f482.dir\\Debug\\".
-          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjf06l\\Debug\\".
-          Criando o diret├│rio "cmTC_8f482.dir\\Debug\\cmTC_8f482.tlog\\".
-        InitializeBuildStatus:
-          Criando "cmTC_8f482.dir\\Debug\\cmTC_8f482.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_8f482.dir\\Debug\\cmTC_8f482.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f482.dir\\Debug\\\\" /Fd"cmTC_8f482.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjf06l\\CheckFunctionExists.c"
-          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.40.33811 para x86
-          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f482.dir\\Debug\\\\" /Fd"cmTC_8f482.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjf06l\\CheckFunctionExists.c"
-          CheckFunctionExists.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjf06l\\Debug\\cmTC_8f482.exe" /INCREMENTAL /ILK:"cmTC_8f482.dir\\Debug\\cmTC_8f482.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/victo/OneDrive/├ürea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-xjf06l/Debug/cmTC_8f482.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/victo/OneDrive/├ürea de Trabalho/Nova pasta/Hotel/build/CMakeFiles/CMakeScratch/TryCompile-xjf06l/Debug/cmTC_8f482.lib" /MACHINE:X86  /machine:X86 cmTC_8f482.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthread.lib' [C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjf06l\\cmTC_8f482.vcxproj]
-        Projeto de compila├º├úo pronto "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjf06l\\cmTC_8f482.vcxproj" (destinos padr├úo) -- FALHA.
-        
-        FALHA da compila├º├úo.
-        
-        "C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjf06l\\cmTC_8f482.vcxproj" (destino padr├úo) (1) ->
-        (Link destino) -> 
-          LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthread.lib' [C:\\Users\\victo\\OneDrive\\├ürea de Trabalho\\Nova pasta\\Hotel\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xjf06l\\cmTC_8f482.vcxproj]
-        
-            0 Aviso(s)
-            1 Erro(s)
-        
-        Tempo Decorrido 00:00:01.79
-        
-      exitCode: 1
 ...

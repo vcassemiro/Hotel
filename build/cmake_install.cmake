@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel
+# Install script for directory: C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/src/lib/cmake_install.cmake")
-  include("C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/src/tests/cmake_install.cmake")
+  include("C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/src/lib/cmake_install.cmake")
 
 endif()
 
@@ -54,6 +53,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

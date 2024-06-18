@@ -1,6 +1,6 @@
-^C:\USERS\VICTO\ONEDRIVE\ÁREA DE TRABALHO\NOVA PASTA\HOTEL\BUILD\CMAKEFILES\EA57CE53598882B4003CBF99B9CD6208\GENERATE.STAMP.RULE
+^C:\USERS\VICTO\ONEDRIVE\DOCUMENTOS\TESTE HOTEL\HOTEL\BUILD\CMAKEFILES\4A0A9500E9B2E3276D233F3C884D7CCA\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel" "-BC:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/Hotel.sln"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel" "-BC:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/Hotel.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

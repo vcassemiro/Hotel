@@ -1,3 +1,0 @@
-C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/CMakeFiles/abseil-populate.dir
-C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/CMakeFiles/ALL_BUILD.dir
-C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/_deps/abseil-subbuild/CMakeFiles/ZERO_CHECK.dir

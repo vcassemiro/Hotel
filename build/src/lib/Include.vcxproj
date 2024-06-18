@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{50F6136E-FD34-32A8-A9DA-D594F2049038}</ProjectGuid>
+    <ProjectGuid>{B626C527-0B7D-3033-9868-4F68AEEC986C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>win32</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\build\src\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\build\src\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Include.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Include</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\build\src\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\build\src\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Include.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Include</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\build\src\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\build\src\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Include.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Include</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\build\src\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\build\src\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Include.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Include</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -91,7 +91,6 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
-      <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
@@ -100,10 +99,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,7 +115,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -128,7 +127,6 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
-      <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
@@ -139,10 +137,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -155,7 +153,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -167,7 +165,6 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
-      <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
@@ -178,10 +175,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -194,7 +191,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -207,7 +204,6 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
-      <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
@@ -216,10 +212,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -231,11 +227,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/src/lib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/src/lib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel" "-BC:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build" --check-stamp-file "C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/src/lib/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel" "-BC:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build" --check-stamp-file "C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/src/lib/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -244,11 +240,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\build\src\lib\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\build\src\lib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/src/lib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/src/lib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel" "-BC:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build" --check-stamp-file "C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/src/lib/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel" "-BC:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build" --check-stamp-file "C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/src/lib/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -257,11 +253,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\build\src\lib\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\build\src\lib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/src/lib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/src/lib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel" "-BC:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build" --check-stamp-file "C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/src/lib/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel" "-BC:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build" --check-stamp-file "C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/src/lib/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -270,11 +266,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\build\src\lib\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\build\src\lib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/src/lib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/src/lib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel" "-BC:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build" --check-stamp-file "C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/src/lib/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel" "-BC:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build" --check-stamp-file "C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/src/lib/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -283,39 +279,41 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\build\src\lib\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\build\src\lib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Pessoa.cpp" />
-    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Avaliacao.cpp" />
-    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Cliente.cpp" />
-    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Hospede.cpp" />
-    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Hotel.cpp" />
-    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Pagamento.cpp" />
-    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto.cpp" />
-    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto_Luxo.cpp" />
-    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto_Simples.cpp" />
-    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto_Suite.cpp" />
-    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Reserva.cpp" />
-    <ClCompile Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Dados.cpp" />
-    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Pessoa.h" />
-    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Avaliacao.h" />
-    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Cliente.h" />
-    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Hospede.h" />
-    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Hotel.h" />
-    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Pagamento.h" />
-    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto.h" />
-    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto_Luxo.h" />
-    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto_Simples.h" />
-    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Quarto_Suite.h" />
-    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Reserva.h" />
-    <ClInclude Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\src\lib\Dados.h" />
+    <ClCompile Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Pessoa.cpp" />
+    <ClCompile Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Avaliacao.cpp" />
+    <ClCompile Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Cliente.cpp" />
+    <ClCompile Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Hospede.cpp" />
+    <ClCompile Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Hotel.cpp" />
+    <ClCompile Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Pagamento.cpp" />
+    <ClCompile Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Quarto.cpp" />
+    <ClCompile Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Quarto_Luxo.cpp" />
+    <ClCompile Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Quarto_Simples.cpp" />
+    <ClCompile Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Quarto_Suite.cpp" />
+    <ClCompile Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Reserva.cpp" />
+    <ClCompile Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Dados.cpp" />
+    <ClCompile Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Servico.cpp" />
+    <ClInclude Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Pessoa.h" />
+    <ClInclude Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Avaliacao.h" />
+    <ClInclude Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Cliente.h" />
+    <ClInclude Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Hospede.h" />
+    <ClInclude Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Hotel.h" />
+    <ClInclude Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Pagamento.h" />
+    <ClInclude Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Quarto.h" />
+    <ClInclude Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Quarto_Luxo.h" />
+    <ClInclude Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Quarto_Simples.h" />
+    <ClInclude Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Quarto_Suite.h" />
+    <ClInclude Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Reserva.h" />
+    <ClInclude Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Dados.h" />
+    <ClInclude Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\src\lib\Servico.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\victo\OneDrive\Área de Trabalho\Nova pasta\Hotel\build\ZERO_CHECK.vcxproj">
-      <Project>{DA5E371F-249A-363A-810A-DA769FBCE3AF}</Project>
+    <ProjectReference Include="C:\Users\victo\OneDrive\Documentos\Teste Hotel\Hotel\build\ZERO_CHECK.vcxproj">
+      <Project>{154CF69C-A206-342C-9596-1A94E624E641}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

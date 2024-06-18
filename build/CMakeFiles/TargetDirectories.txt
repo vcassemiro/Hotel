@@ -1,5 +1,4 @@
-C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/CMakeFiles/Hotel.dir
-C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/src/lib/CMakeFiles/Include.dir
-C:/Users/victo/OneDrive/Área de Trabalho/Nova pasta/Hotel/build/src/tests/CMakeFiles/tests.dir
+C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/CMakeFiles/Hotel.dir
+C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/victo/OneDrive/Documentos/Teste Hotel/Hotel/build/src/lib/CMakeFiles/Include.dir

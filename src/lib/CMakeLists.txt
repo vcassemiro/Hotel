@@ -12,6 +12,7 @@ set(HEADER_FILES
 	 Quarto_Suite.h
 	 Reserva.h
 	 Dados.h
+	 Servico.h
 )
 
 set(SOURCE_FILES
@@ -27,6 +28,8 @@ set(SOURCE_FILES
 	Quarto_Suite.cpp
 	Reserva.cpp
 	Dados.cpp
+	Servico.cpp
+
 
 )
 add_library(Include ${SOURCE_FILES} ${HEADER_FILES})
