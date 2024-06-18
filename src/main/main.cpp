@@ -11,6 +11,7 @@
 #include "Reserva.h"
 #include "Dados.h"
 #include "Servico.h"
+#include <stdexcept>
 
 #include <sstream>
 #include <fstream>
@@ -214,6 +215,7 @@ void listarQuartos(Dados& dados) { //Funcao void 8, lista quartos registrados.
 
 void listarHospedes(Dados& dados) { //Funcao void 9, lista hospedes registrados.
     vector<Hospede> hospedes = dados.carregarHospedes();
+   
     for (const auto& hospede : hospedes) {
         cout << "Nome usuario: " << hospede.getNome() << endl;
         cout << "Numero telefone: " << hospede.getTelefone() << endl;
@@ -254,66 +256,73 @@ void listarAvaliacoes(Dados& dados) { //Funcao void 12, lista avalicacoes regist
     }
 }
 
-int main() { //principal
-    
-    mensagem_inicial();
+int main() {
+    try {
+        mensagem_inicial();
 
-    bool continuar = true; //variavel tipo bool para controlar continuidade do while.
-    int escolha; //variavel tipo int para receber entrada de interacao usuario e interface.
+        bool continuar = true;
+        int escolha;
 
-    while (continuar) {
-        mensagem_menu();
-        cin >> escolha;
+        while (continuar) {
+            mensagem_menu();
+            if (!(cin >> escolha)) {
+                cout << "Entrada invalida. Por favor, insira um numero." << endl;
+                cin.clear(); // Clear the error flag
+                cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Ignore invalid input
+                continue;
+            }
 
-        switch (escolha) {
-            case 1:
-                cadastrarQuartoSimples(dados);
-                break;
-            case 2:
-                cadastrarQuartoSuite(dados);
-                break;
-            case 3:
-                cadastrarQuartoLuxo(dados);
-                break;
-            case 4:
-                cadastrarHospede(dados);
-                break;
-            case 5:
-                cadastrarReserva(dados);
-                break;
-            case 6:
-                cadastrarPagamento(dados);
-                break;
-            case 7:
-                cadastrarAvaliacao(dados);
-                break;
-            case 8:
-                listarQuartos(dados);
-                break;
-            case 9:
-                listarHospedes(dados);
-                break;
-            case 10:
-                listarReservas(dados);
-                break;
-            case 11:
-                listarPagamentos(dados);
-                break;
-            case 12:
-                listarAvaliacoes(dados);
-                break;
-            case 13:
-                cout << "Escolheu Sair" << endl << endl;
-                continuar = false;
-                break;
-            default:
-                cout << "Escolha invalida" << endl << endl;
-                break;
+            switch (escolha) {
+                case 1:
+                    cadastrarQuartoSimples(dados);
+                    break;
+                case 2:
+                    cadastrarQuartoSuite(dados);
+                    break;
+                case 3:
+                    cadastrarQuartoLuxo(dados);
+                    break;
+                case 4:
+                    cadastrarHospede(dados);
+                    break;
+                case 5:
+                    cadastrarReserva(dados);
+                    break;
+                case 6:
+                    cadastrarPagamento(dados);
+                    break;
+                case 7:
+                    cadastrarAvaliacao(dados);
+                    break;
+                case 8:
+                    listarQuartos(dados);
+                    break;
+                case 9:
+                    listarHospedes(dados);
+                    break;
+                case 10:
+                    listarReservas(dados);
+                    break;
+                case 11:
+                    listarPagamentos(dados);
+                    break;
+                case 12:
+                    listarAvaliacoes(dados);
+                    break;
+                case 13:
+                    cout << "Escolheu Sair" << endl << endl;
+                    continuar = false;
+                    break;
+                default:
+                    cout << "Escolha invalida" << endl << endl;
+                    break;
+            }
         }
-        
+    } catch (const std::exception& e) {
+        cout << "Ocorreu uma excecao: " << e.what() << endl;
+    } catch (...) {
+        cout << "Ocorreu um erro desconhecido." << endl;
     }
 
-    
-
-
+    return 0;
 }

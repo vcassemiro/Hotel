@@ -32,7 +32,18 @@ Avaliacoes Avaliacoes::fromCSV(const std::string& csv) {
     std::getline(ss, comentario, ',');
     std::getline(ss, notaStr, ',');
 
-    int nota = std::stoi(notaStr);
+    int nota = 0;
+
+    try {
+        nota = std::stoi(notaStr);
+    } catch (const std::invalid_argument& e) {
+        std::cerr << "Invalid argument for nota: " << e.what() << '\n';
+        // Handle the error or return
+    } catch (const std::out_of_range& e) {
+        std::cerr << "Out of range for nota: " << e.what() << '\n';
+        // Handle the error or return
+    }
 
     return Avaliacoes(comentario, nota);
 }
+

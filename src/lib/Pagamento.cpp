@@ -53,8 +53,30 @@ Pagamento Pagamento::fromCSV(const std::string& csv) {
     getline(ss, metodo, ',');
     getline(ss, data, ',');
     getline(ss, idStr, ',');
-    double valor = std::stod(valorStr);
-    int id = std::stoi(idStr);
+
+    double valor = 0.0;
+    int id ;
+
+    try {
+        valor = std::stod(valorStr);
+    } catch (const std::invalid_argument& e) {
+        std::cerr << "Invalid argument for valor: " << e.what() << '\n';
+        // Handle the error or return
+    } catch (const std::out_of_range& e) {
+        std::cerr << "Out of range for valor: " << e.what() << '\n';
+        // Handle the error or return
+    }
+
+    try {
+        id = std::stoi(idStr);
+    } catch (const std::invalid_argument& e) {
+        std::cerr << "Invalid argument for id: " << e.what() << '\n';
+        // Handle the error or return
+    } catch (const std::out_of_range& e) {
+        std::cerr << "Out of range for id: " << e.what() << '\n';
+        // Handle the error or return
+    }
+
     return Pagamento(valor, metodo, data);
 }
 

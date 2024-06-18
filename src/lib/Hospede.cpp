@@ -33,6 +33,10 @@ std::string Hospede::paraCSV() const {
     return ss.str();
 }
 
+#include <string>
+#include <sstream>
+#include <iostream>
+
 Hospede Hospede::fromCSV(const std::string& csv) {
     std::stringstream ss(csv);
     std::string nome, cpf, telefone, email, idStr;
@@ -43,6 +47,17 @@ Hospede Hospede::fromCSV(const std::string& csv) {
     getline(ss, email, ',');
     getline(ss, idStr, ',');
 
-    int id = std::stoi(idStr);
+    int id = 0;
+
+    try {
+        id = std::stoi(idStr);
+    } catch (const std::invalid_argument& e) {
+        std::cerr << "Invalid argument for id: " << e.what() << '\n';
+        // Handle the error or return
+    } catch (const std::out_of_range& e) {
+        std::cerr << "Out of range for id: " << e.what() << '\n';
+        // Handle the error or return
+    }
+
     return Hospede(nome, cpf, telefone, email, id);
 }
