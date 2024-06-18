@@ -18,7 +18,7 @@
 #include <string>
 #include <vector>
 using namespace std;
-
+extern Dados dados;
 
 void mensagem_inicial() { //Mensagem padrao inicializacao sistema
     cout << "==========================================" << endl;
@@ -313,5 +313,7 @@ int main() { //principal
         
     }
 
-    return 0;
+    
+
+
 }
