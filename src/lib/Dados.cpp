@@ -1,6 +1,6 @@
 
 #include "Pessoa.h"
-#include "Avaliacao.h" // Include the header file for Avaliacao class
+#include "Avaliacao.h"
 #include "Cliente.h"
 #include "Hospede.h"
 #include "Hotel.h"
@@ -10,8 +10,15 @@
 #include "Quarto_Simples.h"
 #include "Quarto_Suite.h"
 #include "Reserva.h"
-#include "Dados.h" 
+#include "Dados.h"
+#include "Servico.h"
+
 #include <sstream>
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <vector>
+using namespace std;
 
 Dados::Dados(const std::string& fileName) : fileName(fileName) {}
 
@@ -85,39 +92,4 @@ std::vector<Avaliacoes> Dados::carregarAvaliacoes() {
     }
 
     return avaliacoes;
-}
-
-void Dados::salvarQuartos(const std::vector<Quarto>& quartos) {
-    std::ofstream file(fileName, std::ios::app);
-    for (const auto& quarto : quartos) {
-        file << "Quarto," << quarto.paraCSV() << std::endl;
-    }
-}
-
-void Dados::salvarHospedes(const std::vector<Hospede>& hospedes) {
-    std::ofstream file(fileName, std::ios::app);
-    for (const auto& hospede : hospedes) {
-        file << "Hospede," << hospede.paraCSV() << std::endl;
-    }
-}
-
-void Dados::salvarReservas(const std::vector<Reserva>& reservas) {
-    std::ofstream file(fileName, std::ios::app);
-    for (const auto& reserva : reservas) {
-        file << "Reserva," << reserva.paraCSV() << std::endl;
-    }
-}
-
-void Dados::salvarPagamentos(const std::vector<Pagamento>& pagamentos) {
-    std::ofstream file(fileName, std::ios::app);
-    for (const auto& pagamento : pagamentos) {
-        file << "Pagamento," << pagamento.paraCSV() << std::endl;
-    }
-}
-
-void Dados::salvarAvaliacoes(const std::vector<Avaliacoes>& avaliacoes) {
-    std::ofstream file(fileName, std::ios::app);
-    for (const auto& avaliacao : avaliacoes) {
-        file << "Avaliacao," << avaliacao.paraCSV() << std::endl;
-    }
 }

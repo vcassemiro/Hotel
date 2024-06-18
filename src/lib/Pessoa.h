@@ -1,6 +1,28 @@
 #ifndef PESSOA_H
 #define PESSOA_H
+
+#include "Pessoa.h"
+#include "Avaliacao.h"
+#include "Cliente.h"
+#include "Hospede.h"
+#include "Hotel.h"
+#include "Pagamento.h"
+#include "Quarto.h"
+#include "Quarto_Luxo.h"
+#include "Quarto_Simples.h"
+#include "Quarto_Suite.h"
+#include "Reserva.h"
+#include "Dados.h"
+#include "Servico.h"
+
+#include <sstream>
+#include <fstream>
+#include <iostream>
 #include <string>
+#include <vector>
+using namespace std;
+
+
 
 class Pessoa {
 protected:
@@ -12,7 +34,6 @@ public:
     Pessoa(const std::string& nome, const std::string& cpf, const std::string& telefone);
     virtual ~Pessoa();
 
-    // Getters e Setters
     std::string getNome() const;
     void setNome(const std::string& nome);
 
@@ -22,9 +43,9 @@ public:
     std::string getTelefone() const;
     void setTelefone(const std::string& telefone);
 
-    // Método para CSV
     std::string paraCSV() const;
     static Pessoa fromCSV(const std::string& csv);
 };
+
 
 #endif // PESSOA_H

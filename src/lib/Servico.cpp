@@ -1,5 +1,25 @@
+#include "Pessoa.h"
+#include "Avaliacao.h"
+#include "Cliente.h"
+#include "Hospede.h"
+#include "Hotel.h"
+#include "Pagamento.h"
+#include "Quarto.h"
+#include "Quarto_Luxo.h"
+#include "Quarto_Simples.h"
+#include "Quarto_Suite.h"
+#include "Reserva.h"
+#include "Dados.h"
 #include "Servico.h"
+
 #include <sstream>
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <vector>
+using namespace std;
+
+
 
 Servico::Servico(int idServico, string descricao, double preco) {
     this->idServico = idServico;
@@ -21,9 +41,21 @@ Servico Servico::fromCSV(const std::string& csv) {
     getline(ss, idServicoStr, ',');
     getline(ss, descricao, ',');
     getline(ss, precoStr, ',');
+    }
 
-    int idServico = stoi(idServicoStr);
-    double preco = stod(precoStr);
 
-    return Servico(idServico, descricao, preco);
+Hospede* getHospedeById(const std::string& id) {
+    return nullptr;
+}
+
+Quarto* getQuartoByNumero(const std::string& numero) {
+    return nullptr;
+}
+
+Servico* getServicoById(const std::string& id) {
+    return nullptr;
+}
+
+Servico* getServicoById(const std::string& id) {
+    return nullptr;
 }

@@ -1,11 +1,29 @@
+#include "Pessoa.h"
+#include "Avaliacao.h"
+#include "Cliente.h"
 #include "Hospede.h"
+#include "Hotel.h"
+#include "Pagamento.h"
+#include "Quarto.h"
+#include "Quarto_Luxo.h"
+#include "Quarto_Simples.h"
+#include "Quarto_Suite.h"
+#include "Reserva.h"
+#include "Dados.h"
+#include "Servico.h"
+
 #include <sstream>
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <vector>
+using namespace std;
 
-// Constructor
-Hospede::Hospede( const std::string& nome, const std::string& email, const std::string& telefone)
-: Cliente(nome, "", telefone, ""), email(email) {}
+Hospede::Hospede(const std::string& nome, const std::string& telefone, const std::string& email, int idHospede)
+    : Cliente(nome, "", telefone, email), idHospede(idHospede) {}
+ 
 
-// Getters and Setters
+
 std::string Hospede::getEmail() const {
     return email;
 }
@@ -30,19 +48,20 @@ std::vector<Avaliacoes> Hospede::getAvaliacoes() const {
     return avaliacoes;
 }
 
-// Método para CSV
 std::string Hospede::paraCSV() const {
     std::stringstream ss;
     ss << "," << getNome() << "," << getEmail() << "," << getTelefone();
     return ss.str();
 }
 
-// Method to create a Hospede object from a CSV string
 Hospede Hospede::fromCSV(const std::string& csv) {
     std::stringstream ss(csv);
     std::string nome, email, telefone;
     std::getline(ss, nome, ',');
     std::getline(ss, email, ',');
     std::getline(ss, telefone, ',');
-    return Hospede(nome, email, telefone);
+    int idHospede; 
+    ss >> idHospede;
+    return Hospede(nome, email, telefone, idHospede); 
 }
+

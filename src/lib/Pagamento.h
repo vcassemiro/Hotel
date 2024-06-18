@@ -1,36 +1,72 @@
 #ifndef PAGAMENTO_H
 #define PAGAMENTO_H
 
+#include "Pessoa.h"
+#include "Avaliacao.h"
+#include "Cliente.h"
+#include "Hospede.h"
+#include "Hotel.h"
+#include "Pagamento.h"
+#include "Quarto.h"
+#include "Quarto_Luxo.h"
+#include "Quarto_Simples.h"
+#include "Quarto_Suite.h"
+#include "Reserva.h"
+#include "Dados.h"
+#include "Servico.h"
+
+#include <sstream>
+#include <fstream>
+#include <iostream>
 #include <string>
-#include <ctime>
+#include <vector>
+
+using namespace std;
 
 class Pagamento {
 private:
     double valor;
     std::string metodo;
-    std::tm data;
+    std::string data;
 
-    // Construtor de cópia e operador de atribuição privados para evitar cópia
     Pagamento(const Pagamento&) = delete;
     Pagamento& operator=(const Pagamento&) = delete;
 
 public:
-    Pagamento(double valor, const std::string& metodo, const std::tm& data);
+    Pagamento(double valor, const std::string& metodo, const std::string& data);
     ~Pagamento();
 
-    // Getters e Setters...
-    double getValor() const;
-    void setValor(double valor);
+    double getValor() const {
+        return valor;
+    }
     
-    std::string getMetodo() const;
-    void setMetodo(const std::string& metodo);
+    void setValor(double valor) {
+        this->valor = valor;
+    }
     
-    std::tm getData() const;
-    void setData(const std::tm& data);
+    std::string getMetodo() const {
+        return metodo;
+    }
+    
+    void setMetodo(const std::string& metodo) {
+        this->metodo = metodo;
+    }
+    
+    std::tm getData() const {
+        std::tm date;
+        // Implement the logic to return the date
+        return date;
+    }
+    
+    void setData(const std::tm& data) {
+        // Implement the logic to set the date
+    }
 
-    // Método para CSV
     std::string paraCSV() const;
     static Pagamento fromCSV(const std::string& csv);
 };
 
 #endif // PAGAMENTO_H
+
+
+

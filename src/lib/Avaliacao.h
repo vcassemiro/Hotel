@@ -1,39 +1,51 @@
-#ifndef AVALIACOES_H
-#define AVALIACOES_H
+#ifndef AVALIACAO_H
+#define AVALIACAO_H
 
+#include "Pessoa.h"
+#include "Avaliacao.h"
+#include "Cliente.h"
+#include "Hospede.h"
+#include "Hotel.h"
+#include "Pagamento.h"
+#include "Quarto.h"
+#include "Quarto_Luxo.h"
+#include "Quarto_Simples.h"
+#include "Quarto_Suite.h"
+#include "Reserva.h"
+#include "Dados.h"
+#include "Servico.h"
+
+#include <sstream>
+#include <fstream>
 #include <iostream>
 #include <string>
-#include "Hospede.h"
-#include "Reserva.h"
+#include <vector>
+using namespace std;
 
 class Avaliacoes {
 private:
-    std::string comentario;
+    string comentario;
     int nota;
-    Hospede& hospede;
-    Reserva& reserva;
 
 public:
-    Avaliacoes(const std::string& comentario, int nota, Hospede& hospede, Reserva& reserva);
+    Avaliacoes(string comentario, int nota);
     ~Avaliacoes();
 
-    // Getters e Setters...
-    std::string getComentario() const;
-    void setComentario(const std::string& comentario);
-    
-    int getNota() const;
+    string getComentario();
+    int getNota();
+    void setComentario(string comentario);
     void setNota(int nota);
-    
-    Hospede& getHospede() const;
-    Reserva& getReserva() const;
-
-    // Método para CSV
     std::string paraCSV() const;
-    static Avaliacoes fromCSV(const std::string& csv);
+    static Avaliacoes fromCSV(const std::string& csv) {
+    std::stringstream ss(csv);
+    std::string comentario, notaStr;
+    std::getline(ss, comentario, ',');
+    std::getline(ss, notaStr, ',');
+
+    int nota = std::stoi(notaStr);
+
+    return Avaliacoes(comentario, nota);
+}
 };
 
-#endif // AVALIACOES_H
-
-
-
-
+#endif // AVALIACAO_H

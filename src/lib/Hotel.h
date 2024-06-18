@@ -1,15 +1,26 @@
 #ifndef HOTEL_H
 #define HOTEL_H
 
+#include "Pessoa.h"
+#include "Avaliacao.h"
+#include "Cliente.h"
+#include "Hospede.h"
+#include "Hotel.h"
+#include "Pagamento.h"
+#include "Quarto.h"
+#include "Quarto_Luxo.h"
+#include "Quarto_Simples.h"
+#include "Quarto_Suite.h"
+#include "Reserva.h"
+#include "Dados.h"
+#include "Servico.h"
+
+#include <sstream>
+#include <fstream>
+#include <iostream>
 #include <string>
 #include <vector>
-#include "Quarto.h"
-#include "Hospede.h"
-#include "Avaliacao.h"
-#include "Pagamento.h"
-
-using std::string;
-using std::vector;
+using namespace std;
 
 class Hotel {
 private:
@@ -25,21 +36,15 @@ public:
     Hotel(int idHotel, string nome, string endereco);
     ~Hotel();
 
-    // Getters e Setters...
-
-    // Métodos para gerenciar hóspedes...
     void addHospede(Hospede hospede);
     vector<Hospede> getHospedes();
 
-    // Métodos para gerenciar avaliações...
     void addAvaliacao(Avaliacoes avaliacao);
     vector<Avaliacoes> getAvaliacoes();
 
-    // Métodos para gerenciar pagamentos...
     void addPagamento(Pagamento pagamento);
     vector<Pagamento> getPagamentos();
 
-    // Métodos para CSV
     void salvarEmCSV(const string& nomeArquivo);
 };
 

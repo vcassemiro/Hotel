@@ -1,4 +1,25 @@
+#ifndef SERVICO_H
+#define SERVICO_H
+
+#include "Pessoa.h"
+#include "Avaliacao.h"
+#include "Cliente.h"
+#include "Hospede.h"
+#include "Hotel.h"
+#include "Pagamento.h"
+#include "Quarto.h"
+#include "Quarto_Luxo.h"
+#include "Quarto_Simples.h"
+#include "Quarto_Suite.h"
+#include "Reserva.h"
+#include "Dados.h"
+#include "Servico.h"
+
+#include <sstream>
+#include <fstream>
+#include <iostream>
 #include <string>
+#include <vector>
 using namespace std;
 
 
@@ -12,7 +33,6 @@ public:
     Servico(int idServico, string descricao, double preco);
     ~Servico();
 
-    // Getters
     int getIdServico() const {
         return idServico;
     }
@@ -25,7 +45,6 @@ public:
         return preco;
     }
 
-    // Setters
     void setIdServico(int id) {
         idServico = id;
     }
@@ -38,9 +57,10 @@ public:
         preco = p;
     }
 
-    // Método para CSV
     string paraCSV();
     static Servico fromCSV(const std::string& csv);
 };
 
+
+#endif // SERVICO_H
 

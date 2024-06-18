@@ -1,17 +1,32 @@
+#include "Pessoa.h"
+#include "Avaliacao.h"
+#include "Cliente.h"
+#include "Hospede.h"
 #include "Hotel.h"
+#include "Pagamento.h"
+#include "Quarto.h"
+#include "Quarto_Luxo.h"
+#include "Quarto_Simples.h"
+#include "Quarto_Suite.h"
+#include "Reserva.h"
+#include "Dados.h"
+#include "Servico.h"
+
+#include <sstream>
 #include <fstream>
 #include <iostream>
+#include <string>
+#include <vector>
+using namespace std;
 
-// Construtor
+
+
+
 Hotel::Hotel(int idHotel, string nome, string endereco)
 : idHotel(idHotel), nome(nome), endereco(endereco) {}
 
-// Destrutor
 Hotel::~Hotel() {}
 
-// Getters e Setters...
-
-// Métodos para gerenciar hóspedes...
 void Hotel::addHospede(Hospede hospede) {
     hospedes.push_back(hospede);
 }
@@ -20,7 +35,6 @@ vector<Hospede> Hotel::getHospedes() {
     return hospedes;
 }
 
-// Métodos para gerenciar avaliações...
 void Hotel::addAvaliacao(Avaliacoes avaliacao) {
     avaliacoes.push_back(avaliacao);
 }
@@ -29,7 +43,6 @@ vector<Avaliacoes> Hotel::getAvaliacoes() {
     return avaliacoes;
 }
 
-// Métodos para gerenciar pagamentos...
 void Hotel::addPagamento(Pagamento pagamento) {
     pagamentos.push_back(pagamento);
 }
@@ -38,25 +51,15 @@ vector<Pagamento> Hotel::getPagamentos() {
     return pagamentos;
 }
 
-// Método para salvar informações do hotel em CSV
 void Hotel::salvarEmCSV(const string& nomeArquivo) {
     std::ofstream arquivo(nomeArquivo, std::ios::app);
-    
+
     if (!arquivo.is_open()) {
         std::cerr << "Erro ao abrir o arquivo!" << std::endl;
         return;
     }
 
-    // Salva informações do hotel
     arquivo << idHotel << "," << nome << "," << endereco << "\n";
-
-    // Salva informações dos quartos...
-    
-    // Salva informações dos hóspedes...
-    
-    // Salva informações das avaliações...
-    
-    // Salva informações dos pagamentos...
 
     arquivo.close();
 }

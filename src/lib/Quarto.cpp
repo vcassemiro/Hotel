@@ -1,23 +1,33 @@
+
+#include "Pessoa.h"
+#include "Avaliacao.h"
+#include "Cliente.h"
+#include "Hospede.h"
+#include "Hotel.h"
+#include "Pagamento.h"
 #include "Quarto.h"
+#include "Quarto_Luxo.h"
+#include "Quarto_Simples.h"
+#include "Quarto_Suite.h"
 #include "Reserva.h"
+#include "Dados.h"
+#include "Servico.h"
+
 #include <sstream>
-#include <stdexcept> // Para std::invalid_argument
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <vector>
+using namespace std;
 
-
-    Quarto::Quarto(int idQuarto, int idHotel, const std::string& tipo, double preco, bool disponivel) :
-     idQuarto(idQuarto), idHotel(idHotel), tipo(tipo), preco(preco), disponivel(disponivel)
-    {
-        // Add any additional initialization code here if needed
-    }
-       
-
-    
-// Destrutor
-Quarto::~Quarto() {
-    // Aqui você pode adicionar código para limpar recursos alocados dinamicamente, se necessário
+Quarto::Quarto(int idQuarto, int idHotel, const std::string& tipo, double preco, bool disponivel)
+: idQuarto(idQuarto), idHotel(idHotel), tipo(tipo), preco(preco), disponivel(disponivel)
+{
 }
 
-// Métodos para gerenciar reservas
+Quarto::~Quarto() {
+}
+
 void Quarto::addReserva(const Reserva& reserva) {
     reservas.push_back(reserva);
 }
@@ -26,7 +36,6 @@ const std::vector<Reserva>& Quarto::getReservas() const {
     return reservas;
 }
 
-// Métodos para gerenciar hóspedes
 void Quarto::addHospede(const Hospede& hospede) {
     hospedes.push_back(hospede);
 }
@@ -35,7 +44,6 @@ const std::vector<Hospede>& Quarto::getHospedes() const {
     return hospedes;
 }
 
-// Métodos para gerenciar serviços
 void Quarto::addServico(const Servico& servico) {
     servicos.push_back(servico);
 }
@@ -44,7 +52,6 @@ const std::vector<Servico>& Quarto::getServicos() const {
     return servicos;
 }
 
-// Método para converter informações do quarto em formato CSV
 Quarto Quarto::fromCSV(const std::string& csv) {
     std::istringstream iss(csv);
     std::string token;
@@ -53,7 +60,6 @@ Quarto Quarto::fromCSV(const std::string& csv) {
     double p;
     bool d;
 
-    // Lê cada parte do CSV usando getline e converte para os tipos apropriados
     std::getline(iss, token, ',');
     try {
         idQ = std::stoi(token);

@@ -1,11 +1,28 @@
 #ifndef QUARTO_H
 #define QUARTO_H
 
+
+#include "Pessoa.h"
+#include "Avaliacao.h"
+#include "Cliente.h"
+#include "Hospede.h"
+#include "Hotel.h"
+#include "Pagamento.h"
+#include "Quarto.h"
+#include "Quarto_Luxo.h"
+#include "Quarto_Simples.h"
+#include "Quarto_Suite.h"
+#include "Reserva.h"
+#include "Dados.h"
+#include "Servico.h"
+#include "Servico.h"
+
+#include <sstream>
+#include <fstream>
+#include <iostream>
 #include <string>
 #include <vector>
-#include "Reserva.h"
-#include "Hospede.h"
-#include "Servico.h"
+using namespace std;
 
 class Quarto {
 private:
@@ -22,7 +39,6 @@ public:
     Quarto(int idQuarto, int idHotel, const std::string& tipo, double preco, bool disponivel);
     ~Quarto();
 
-    // Getters e Setters
     int getIdQuarto() const { return idQuarto; }
     void setIdQuarto(int val) { idQuarto = val; }
 
@@ -38,21 +54,17 @@ public:
     bool isDisponivel() const { return disponivel; }
     void setDisponivel(bool val) { disponivel = val; }
 
-    // Métodos para gerenciar reservas
     void addReserva(const Reserva& reserva);
     const std::vector<Reserva>& getReservas() const { return reservas; }
 
-    // Métodos para gerenciar hóspedes
     void addHospede(const Hospede& hospede);
     const std::vector<Hospede>& getHospedes() const { return hospedes; }
 
-    // Métodos para gerenciar serviços
     void addServico(const Servico& servico);
     const std::vector<Servico>& getServicos() const { return servicos; }
 
-    // Métodos para CSV
     std::string paraCSV() const;
     static Quarto fromCSV(const std::string& csv);
 };
 
-#endif // QUARTO_H
+#endif  // QUARTO_H
