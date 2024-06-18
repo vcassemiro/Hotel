@@ -1,27 +1,12 @@
 #ifndef SERVICO_H
 #define SERVICO_H
 
-#include "Pessoa.h"
-#include "Avaliacao.h"
-#include "Cliente.h"
-#include "Hospede.h"
-#include "Hotel.h"
-#include "Pagamento.h"
-#include "Quarto.h"
-#include "Quarto_Luxo.h"
-#include "Quarto_Simples.h"
-#include "Quarto_Suite.h"
-#include "Reserva.h"
-#include "Dados.h"
-#include "Servico.h"
-
 #include <sstream>
 #include <fstream>
 #include <iostream>
 #include <string>
 #include <vector>
 using namespace std;
-
 
 class Servico {
 private:
@@ -30,7 +15,7 @@ private:
     double preco;
 
 public:
-    Servico(int idServico, string descricao, double preco);
+    Servico(int idServico, const string& descricao, double preco);
     ~Servico();
 
     int getIdServico() const {
@@ -57,10 +42,8 @@ public:
         preco = p;
     }
 
-    string paraCSV();
-    static Servico fromCSV(const std::string& csv);
+    string paraCSV() const;
+    static Servico fromCSV(const string& csv);
 };
 
-
 #endif // SERVICO_H
-

@@ -1,65 +1,60 @@
-#include "Pessoa.h"
-#include "Avaliacao.h"
-#include "Cliente.h"
-#include "Hospede.h"
 #include "Hotel.h"
-#include "Pagamento.h"
-#include "Quarto.h"
-#include "Quarto_Luxo.h"
-#include "Quarto_Simples.h"
-#include "Quarto_Suite.h"
-#include "Reserva.h"
-#include "Dados.h"
-#include "Servico.h"
+#include "dados.cpp"
 
-#include <sstream>
-#include <fstream>
-#include <iostream>
-#include <string>
-#include <vector>
-using namespace std;
+Hotel::Hotel(int idHotel, const std::string& nome, const std::string& endereco)
+    : idHotel(idHotel), nome(nome), endereco(endereco) {
+}
 
+Hotel::~Hotel() {
+}
 
+void Hotel::addQuarto(const Quarto& quarto) {
+    quartos.push_back(quarto);
+}
 
+std::vector<Quarto> Hotel::getQuartos() const {
+    return quartos;
+}
 
-Hotel::Hotel(int idHotel, string nome, string endereco)
-: idHotel(idHotel), nome(nome), endereco(endereco) {}
-
-Hotel::~Hotel() {}
-
-void Hotel::addHospede(Hospede hospede) {
+void Hotel::addHospede(const Hospede& hospede) {
     hospedes.push_back(hospede);
 }
 
-vector<Hospede> Hotel::getHospedes() {
+std::vector<Hospede> Hotel::getHospedes() const {
     return hospedes;
 }
 
-void Hotel::addAvaliacao(Avaliacoes avaliacao) {
+void Hotel::addAvaliacao(const Avaliacoes& avaliacao) {
     avaliacoes.push_back(avaliacao);
 }
 
-vector<Avaliacoes> Hotel::getAvaliacoes() {
+std::vector<Avaliacoes> Hotel::getAvaliacoes() const {
     return avaliacoes;
 }
 
-void Hotel::addPagamento(Pagamento pagamento) {
+void Hotel::addPagamento(const Pagamento& pagamento) {
     pagamentos.push_back(pagamento);
 }
 
-vector<Pagamento> Hotel::getPagamentos() {
+std::vector<Pagamento> Hotel::getPagamentos() const {
     return pagamentos;
 }
 
-void Hotel::salvarEmCSV(const string& nomeArquivo) {
-    std::ofstream arquivo(nomeArquivo, std::ios::app);
-
-    if (!arquivo.is_open()) {
-        std::cerr << "Erro ao abrir o arquivo!" << std::endl;
-        return;
+void Hotel::salvarEmCSV(const std::string& nomeArquivo) const {
+    std::ofstream file(nomeArquivo);
+    if (file.is_open()) {
+        file << "Hotel," << idHotel << "," << nome << "," << endereco << std::endl;
+        for (const auto& quarto : quartos) {
+            file << "Quarto," << quarto.paraCSV() << std::endl;
+        }
+        for (const auto& hospede : hospedes) {
+            file << "Hospede," << hospede.paraCSV() << std::endl;
+        }
+        for (const auto& avaliacao : avaliacoes) {
+            file << "Avaliacao," << avaliacao.paraCSV() << std::endl;
+        }
+        for (const auto& pagamento : pagamentos) {
+            file << "Pagamento," << pagamento.paraCSV() << std::endl;
+        }
     }
-
-    arquivo << idHotel << "," << nome << "," << endereco << "\n";
-
-    arquivo.close();
 }

@@ -5,14 +5,12 @@
 #include "Avaliacao.h"
 #include "Cliente.h"
 #include "Hospede.h"
-#include "Hotel.h"
 #include "Pagamento.h"
 #include "Quarto.h"
 #include "Quarto_Luxo.h"
 #include "Quarto_Simples.h"
 #include "Quarto_Suite.h"
 #include "Reserva.h"
-#include "Dados.h"
 #include "Servico.h"
 
 #include <sstream>
@@ -20,32 +18,34 @@
 #include <iostream>
 #include <string>
 #include <vector>
-using namespace std;
 
 class Hotel {
 private:
     int idHotel;
-    string nome;
-    string endereco;
-    vector<Quarto> quartos;
-    vector<Hospede> hospedes;
-    vector<Avaliacoes> avaliacoes;
-    vector<Pagamento> pagamentos;
+    std::string nome;
+    std::string endereco;
+    std::vector<Quarto> quartos;
+    std::vector<Hospede> hospedes;
+    std::vector<Avaliacoes> avaliacoes;
+    std::vector<Pagamento> pagamentos;
 
 public:
-    Hotel(int idHotel, string nome, string endereco);
+    Hotel(int idHotel, const std::string& nome, const std::string& endereco);
     ~Hotel();
 
-    void addHospede(Hospede hospede);
-    vector<Hospede> getHospedes();
+    void addQuarto(const Quarto& quarto);
+    std::vector<Quarto> getQuartos() const;
 
-    void addAvaliacao(Avaliacoes avaliacao);
-    vector<Avaliacoes> getAvaliacoes();
+    void addHospede(const Hospede& hospede);
+    std::vector<Hospede> getHospedes() const;
 
-    void addPagamento(Pagamento pagamento);
-    vector<Pagamento> getPagamentos();
+    void addAvaliacao(const Avaliacoes& avaliacao);
+    std::vector<Avaliacoes> getAvaliacoes() const;
 
-    void salvarEmCSV(const string& nomeArquivo);
+    void addPagamento(const Pagamento& pagamento);
+    std::vector<Pagamento> getPagamentos() const;
+
+    void salvarEmCSV(const std::string& nomeArquivo) const;
 };
 
 #endif // HOTEL_H

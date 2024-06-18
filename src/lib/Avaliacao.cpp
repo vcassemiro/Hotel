@@ -1,63 +1,38 @@
-#include "Pessoa.h"
 #include "Avaliacao.h"
-#include "Cliente.h"
-#include "Hospede.h"
-#include "Hotel.h"
-#include "Pagamento.h"
-#include "Quarto.h"
-#include "Quarto_Luxo.h"
-#include "Quarto_Simples.h"
-#include "Quarto_Suite.h"
-#include "Reserva.h"
-#include "Dados.h"
-#include "Servico.h"
 
-#include <sstream>
-#include <fstream>
-#include <iostream>
-#include <string>
-#include <vector>
-using namespace std;
+Avaliacoes::Avaliacoes(std::string comentario, int nota) : comentario(comentario), nota(nota) {}
 
-class Avaliacoes {
-private:
-    string comentario;
-    int nota;
+Avaliacoes::~Avaliacoes() {}
 
-public:
-    Avaliacoes(string comentario, int nota) : comentario(comentario), nota(nota) {}
-    ~Avaliacoes() {}
+std::string Avaliacoes::getComentario() {
+    return comentario;
+}
 
-    string getComentario() {
-        return comentario;
-    }
+int Avaliacoes::getNota() {
+    return nota;
+}
 
-    int getNota() {
-        return nota;
-    }
+void Avaliacoes::setComentario(std::string comentario) {
+    this->comentario = comentario;
+}
 
-    void setComentario(string comentario) {
-        this->comentario = comentario;
-    }
+void Avaliacoes::setNota(int nota) {
+    this->nota = nota;
+}
 
-    void setNota(int nota) {
-        this->nota = nota;
-    }
+std::string Avaliacoes::paraCSV() const {
+    std::stringstream ss;
+    ss << comentario << "," << nota;
+    return ss.str();
+}
 
-    std::string paraCSV() const {
-        std::stringstream ss;
-        ss << comentario << "," << nota;
-        return ss.str();
-    }
+Avaliacoes Avaliacoes::fromCSV(const std::string& csv) {
+    std::stringstream ss(csv);
+    std::string comentario, notaStr;
+    std::getline(ss, comentario, ',');
+    std::getline(ss, notaStr, ',');
 
-    static Avaliacoes fromCSV(const std::string& csv) {
-        std::stringstream ss(csv);
-        std::string comentario, notaStr;
-        std::getline(ss, comentario, ',');
-        std::getline(ss, notaStr, ',');
+    int nota = std::stoi(notaStr);
 
-        int nota = std::stoi(notaStr);
-
-        return Avaliacoes(comentario, nota);
-    }
-};
+    return Avaliacoes(comentario, nota);
+}

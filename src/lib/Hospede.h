@@ -4,45 +4,25 @@
 #include "Pessoa.h"
 #include "Avaliacao.h"
 #include "Cliente.h"
-#include "Hospede.h"
-#include "Hotel.h"
-#include "Pagamento.h"
-#include "Quarto.h"
-#include "Quarto_Luxo.h"
-#include "Quarto_Simples.h"
-#include "Quarto_Suite.h"
 #include "Reserva.h"
-#include "Dados.h"
-#include "Servico.h"
-
+#include "Avaliacao.h" 
 #include <sstream>
-#include <fstream>
-#include <iostream>
 #include <string>
 #include <vector>
-using namespace std;
+class Reserva;
 
 class Hospede : public Cliente {
 private:
     int idHospede;
-    std::string email;
     std::vector<Reserva> reservas;
     std::vector<Avaliacoes> avaliacoes;
 
 public:
-    Hospede(const std::string& nome, const std::string& email, const std::string& telefone, int idHospede);
+    Hospede(const std::string& nome, const std::string& cpf, const std::string& telefone, const std::string& email, int idHospede);
     virtual ~Hospede() = default;
 
-    int getIdHospede() const {
-        return idHospede;
-    }
-
-    void setIdHospede(int id) {
-        idHospede = id;
-    }
-
-    std::string getEmail() const;
-    void setEmail(const std::string& email);
+    int getIdHospede() const;
+    void setIdHospede(int id);
 
     void addReserva(const Reserva& reserva);
     std::vector<Reserva> getReservas() const;
@@ -50,9 +30,8 @@ public:
     void addAvaliacao(const Avaliacoes& avaliacao);
     std::vector<Avaliacoes> getAvaliacoes() const;
 
-    std::string paraCSV() const;
+    std::string paraCSV() const override;
     static Hospede fromCSV(const std::string& csv);
 };
-
 
 #endif // HOSPEDE_H

@@ -1,35 +1,14 @@
-#include "Pessoa.h"
-#include "Avaliacao.h"
-#include "Cliente.h"
 #include "Hospede.h"
-#include "Hotel.h"
-#include "Pagamento.h"
-#include "Quarto.h"
-#include "Quarto_Luxo.h"
-#include "Quarto_Simples.h"
-#include "Quarto_Suite.h"
-#include "Reserva.h"
-#include "Dados.h"
-#include "Servico.h"
 
-#include <sstream>
-#include <fstream>
-#include <iostream>
-#include <string>
-#include <vector>
-using namespace std;
+Hospede::Hospede(const std::string& nome, const std::string& cpf, const std::string& telefone, const std::string& email, int idHospede)
+    : Cliente(nome, cpf, telefone, email), idHospede(idHospede) {}
 
-Hospede::Hospede(const std::string& nome, const std::string& telefone, const std::string& email, int idHospede)
-    : Cliente(nome, "", telefone, email), idHospede(idHospede) {}
- 
-
-
-std::string Hospede::getEmail() const {
-    return email;
+int Hospede::getIdHospede() const {
+    return idHospede;
 }
 
-void Hospede::setEmail(const std::string& email) {
-    this->email = email;
+void Hospede::setIdHospede(int id) {
+    idHospede = id;
 }
 
 void Hospede::addReserva(const Reserva& reserva) {
@@ -50,18 +29,20 @@ std::vector<Avaliacoes> Hospede::getAvaliacoes() const {
 
 std::string Hospede::paraCSV() const {
     std::stringstream ss;
-    ss << "," << getNome() << "," << getEmail() << "," << getTelefone();
+    ss << Cliente::paraCSV() << "," << idHospede;
     return ss.str();
 }
 
 Hospede Hospede::fromCSV(const std::string& csv) {
     std::stringstream ss(csv);
-    std::string nome, email, telefone;
-    std::getline(ss, nome, ',');
-    std::getline(ss, email, ',');
-    std::getline(ss, telefone, ',');
-    int idHospede; 
-    ss >> idHospede;
-    return Hospede(nome, email, telefone, idHospede); 
-}
+    std::string nome, cpf, telefone, email, idStr;
 
+    getline(ss, nome, ',');
+    getline(ss, cpf, ',');
+    getline(ss, telefone, ',');
+    getline(ss, email, ',');
+    getline(ss, idStr, ',');
+
+    int id = std::stoi(idStr);
+    return Hospede(nome, cpf, telefone, email, id);
+}

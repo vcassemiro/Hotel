@@ -19,7 +19,6 @@
 #include <vector>
 using namespace std;
 
-Dados dados("Dados.csv");
 
 void mensagem_inicial() { //Mensagem padrao inicializacao sistema
     cout << "==========================================" << endl;
@@ -112,29 +111,33 @@ void cadastrarQuartoLuxo(Dados& dados) { //Funcao void 3, cadastra quartos luxo 
     rooms.push_back(newRoom);
     dados.salvarQuartos(rooms);
 }
-void cadastrarHospede(Dados& dados) { //Funcao void 4, cadastra hospedes (heranca de cliente -> pessoa)
-    string nome, telefone, email;
+void cadastrarHospede(Dados& dados) { 
+    string nome, cpf, telefone, email;
     int idHospede;
 
     cout << "Digite o nome do usuario: ";
-    cin >> nome;
+    cin.ignore();
+    getline(cin, nome);
+
+    cout << "Digite o CPF do usuario: ";
+    getline(cin, cpf);
 
     cout << "Digite o telefone do usuario: ";
-    cin >> telefone;
+    getline(cin, telefone);
 
     cout << "Digite o email do usuario: ";
-    cin >> email;
-
+    getline(cin, email);
 
     cout << "Digite o idHospede do usuario: ";
     cin >> idHospede;
 
-    Hospede newGuest(nome, telefone, email, idHospede);
-    vector<Hospede> guests;
+    Hospede newGuest(nome, cpf, telefone, email, idHospede);
+
+    
+    vector<Hospede> guests = dados.carregarHospedes();
     guests.push_back(newGuest);
     dados.salvarHospedes(guests);
 }
-
 
 
 
@@ -183,7 +186,7 @@ void cadastrarPagamento(Dados& dados) {
 }
 
 void cadastrarAvaliacao(Dados& dados) { //Funcao void 7, cadastro de avalicaos (classe avaliacoes)
-    int idAvaliacao, idHospede, nota;
+    int  nota;
     string comentario;
     cout << "Digite a nota (1-5): ";
     cin >> nota;

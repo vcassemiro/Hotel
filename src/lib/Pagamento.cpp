@@ -1,48 +1,69 @@
-#include "Pessoa.h"
-#include "Avaliacao.h"
-#include "Cliente.h"
-#include "Hospede.h"
-#include "Hotel.h"
 #include "Pagamento.h"
-#include "Quarto.h"
-#include "Quarto_Luxo.h"
-#include "Quarto_Simples.h"
-#include "Quarto_Suite.h"
-#include "Reserva.h"
-#include "Dados.h"
-#include "Servico.h"
-
-#include <iomanip>
-#include <sstream>
-#include <fstream>
-#include <iostream>
-#include <string>
-#include <vector>
-#include <ctime>
 
 Pagamento::Pagamento(double valor, const std::string& metodo, const std::string& data)
-: valor(valor), metodo(metodo), data(data) {
+    : valor(valor), metodo(metodo), data(data), idPagamento(0) {}
+
+Pagamento::Pagamento(const Pagamento& other)
+    : valor(other.valor), metodo(other.metodo), data(other.data), idPagamento(other.idPagamento) {}
+
+Pagamento::~Pagamento() {}
+
+double Pagamento::getValor() const {
+    return valor;
 }
 
-Pagamento::~Pagamento() {
+void Pagamento::setValor(double valor) {
+    this->valor = valor;
+}
+
+std::string Pagamento::getMetodo() const {
+    return metodo;
+}
+
+void Pagamento::setMetodo(const std::string& metodo) {
+    this->metodo = metodo;
+}
+
+std::string Pagamento::getData() const {
+    return data;
+}
+
+void Pagamento::setData(const std::string& data) {
+    this->data = data;
+}
+
+int Pagamento::getIdPagamento() const {
+    return idPagamento;
+}
+
+void Pagamento::setIdPagamento(int id) {
+    idPagamento = id;
 }
 
 std::string Pagamento::paraCSV() const {
     std::stringstream ss;
-
-    ss << std::fixed << std::setprecision(2) << valor << "," << metodo << ",";
-
-
+    ss << valor << "," << metodo << "," << data << "," << idPagamento;
     return ss.str();
 }
 
 Pagamento Pagamento::fromCSV(const std::string& csv) {
-    std::istringstream iss(csv);
-
-    double valor;
-    std::string metodo;
-    string data;
-
-   
+    std::stringstream ss(csv);
+    std::string valorStr, metodo, data, idStr;
+    getline(ss, valorStr, ',');
+    getline(ss, metodo, ',');
+    getline(ss, data, ',');
+    getline(ss, idStr, ',');
+    double valor = std::stod(valorStr);
+    int id = std::stoi(idStr);
     return Pagamento(valor, metodo, data);
+}
+
+Pagamento& Pagamento::operator=(const Pagamento& other) {
+    if (this != &other) {
+        valor = other.valor;
+        metodo = other.metodo;
+        data = other.data;
+        idPagamento = other.idPagamento;
+    }
+    return *this;
 }
