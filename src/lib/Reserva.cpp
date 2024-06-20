@@ -1,4 +1,8 @@
 #include "Reserva.h"
+#include <string>
+#include <sstream>
+#include <iostream>
+#include <vector>
 Reserva::Reserva(const std::string& dtCheckIN, const std::string& dtCheckOUT, Hospede* hospede, Quarto* quarto, double valor, const std::vector<Servico>& servicos, const std::vector<Pagamento>& pagamentos, int idReserva, int idHospede, int idQuarto, int idHotel)
     : dtCheckIN(dtCheckIN), dtCheckOUT(dtCheckOUT), hospede(hospede), quarto(quarto), valor(valor), servicos(servicos), pagamentos(pagamentos), idReserva(idReserva), idHospede(idHospede), idQuarto(idQuarto), idHotel(idHotel) {
 }
@@ -103,10 +107,7 @@ string Reserva::paraCSV() const {
     }
     return ss.str();
 }
-#include <string>
-#include <sstream>
-#include <iostream>
-#include <vector>
+
 
 Reserva Reserva::fromCSV(const std::string& csv) {
     std::stringstream ss(csv);
@@ -133,20 +134,18 @@ Reserva Reserva::fromCSV(const std::string& csv) {
         idReserva = std::stoi(idReservaStr);
         idHotel = std::stoi(idHotelStr);
     } catch (const std::invalid_argument& e) {
-        std::cerr << "Invalid argument: " << e.what() << '\n';
-        // Handle the error or return
+        std::cerr << "argumento invalido : " << e.what() << '\n';
+        
     } catch (const std::out_of_range& e) {
-        std::cerr << "Out of range: " << e.what() << '\n';
-        // Handle the error or return
+        std::cerr << "argumento invalido: " << e.what() << '\n';
+        
     }
 
-    // Assuming Servico and Pagamento have proper fromCSV implementations
-    // with error handling as well.
     
     std::vector<Servico> servicos;
     std::vector<Pagamento> pagamentos;
 
-    // ... rest of your code ...
+   
 
     return Reserva(dtCheckIN, dtCheckOUT, nullptr, nullptr, valor, servicos, pagamentos, idReserva, idHospede, idQuarto, idHotel);
 }

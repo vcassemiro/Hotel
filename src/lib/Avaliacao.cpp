@@ -37,11 +37,11 @@ Avaliacoes Avaliacoes::fromCSV(const std::string& csv) {
     try {
         nota = std::stoi(notaStr);
     } catch (const std::invalid_argument& e) {
-        std::cerr << "Invalid argument for nota: " << e.what() << '\n';
-        // Handle the error or return
+        std::cerr << "argumento invalido para notas: " << e.what() << '\n';
+        
     } catch (const std::out_of_range& e) {
-        std::cerr << "Out of range for nota: " << e.what() << '\n';
-        // Handle the error or return
+        std::cerr << "fora do valor nota: " << e.what() << '\n';
+        
     }
 
     return Avaliacoes(comentario, nota);

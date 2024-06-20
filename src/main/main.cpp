@@ -11,8 +11,9 @@
 #include "Reserva.h"
 #include "Dados.h"
 #include "Servico.h"
-#include <stdexcept>
 
+
+#include <stdexcept>
 #include <sstream>
 #include <fstream>
 #include <iostream>
@@ -142,8 +143,6 @@ void cadastrarHospede(Dados& dados) {
 
 
 
-
-
 void cadastrarReserva(Dados& dados) { //Funcao void 5, cadastra reservas (heranca de cliente -> pessoa)
     int idHospede, idQuarto;
     string dataInicio, dataFim;
@@ -267,8 +266,8 @@ int main() {
             mensagem_menu();
             if (!(cin >> escolha)) {
                 cout << "Entrada invalida. Por favor, insira um numero." << endl;
-                cin.clear(); // Clear the error flag
-                cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Ignore invalid input
+                cin.clear(); 
+                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
                 continue;
             }
 

@@ -66,31 +66,31 @@ Quarto Quarto::fromCSV(const std::string& csv) {
     try {
         idQuarto = std::stoi(idQuartoStr);
     } catch (const std::invalid_argument& e) {
-        std::cerr << "Invalid argument for idQuarto: " << e.what() << '\n';
-        // Handle the error or return
+        std::cerr << "argumento invalido para idQuarto: " << e.what() << '\n';
+        
     } catch (const std::out_of_range& e) {
-        std::cerr << "Out of range for idQuarto: " << e.what() << '\n';
-        // Handle the error or return
+        std::cerr << "valor invalido para  idQuarto: " << e.what() << '\n';
+       
     }
 
     try {
         idHotel = std::stoi(idHotelStr);
     } catch (const std::invalid_argument& e) {
-        std::cerr << "Invalid argument for idHotel: " << e.what() << '\n';
-        // Handle the error or return
+        std::cerr << "argumento invalido para  idHotel: " << e.what() << '\n';
+        
     } catch (const std::out_of_range& e) {
-        std::cerr << "Out of range for idHotel: " << e.what() << '\n';
-        // Handle the error or return
+        std::cerr << "valor invalido para idHotel: " << e.what() << '\n';
+        
     }
 
     try {
         preco = std::stod(precoStr);
     } catch (const std::invalid_argument& e) {
-        std::cerr << "Invalid argument for preco: " << e.what() << '\n';
-        // Handle the error or return
+        std::cerr << "argumento invalido para preco: " << e.what() << '\n';
+        
     } catch (const std::out_of_range& e) {
-        std::cerr << "Out of range for preco: " << e.what() << '\n';
-        // Handle the error or return
+        std::cerr << "argumento invalido para  preco: " << e.what() << '\n';
+        
     }
 
     Quarto quarto(idQuarto, idHotel, tipo, preco, disponivel);
@@ -100,7 +100,7 @@ Quarto Quarto::fromCSV(const std::string& csv) {
         try {
             int id = 0;
             if (!idStr.empty()) {
-                id = std::stoi(idStr.substr(1)); // Skip the first character if it's 'R', 'H', or 'S'
+                id = std::stoi(idStr.substr(1)); 
             }
             if (idStr.front() == 'R') {
                 quarto.addReserva(dados.carregarReservas().at(id));
@@ -110,11 +110,11 @@ Quarto Quarto::fromCSV(const std::string& csv) {
                 quarto.addServico(dados.carregarServicos().at(id));
             }
         } catch (const std::invalid_argument& e) {
-            std::cerr << "Invalid argument for ID: " << e.what() << '\n';
-            // Handle the error or continue
+            std::cerr << "argumento invalido para  ID: " << e.what() << '\n';
+            
         } catch (const std::out_of_range& e) {
-            std::cerr << "Out of range for ID: " << e.what() << '\n';
-            // Handle the error or continue
+            std::cerr << "argumento invalido para  ID: " << e.what() << '\n';
+           
         }
     }
     
